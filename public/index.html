@@ -1,719 +1,84 @@
 <!DOCTYPE html>
-<html>
-<title>Portfolio 2019</title>
-<meta charset="UTF-8">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Permanent+Marker|Roboto|Roboto+Mono&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link href="https://fonts.googleapis.com/css?family=Butcherman|Pacifico|Saira+Stencil+One&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Grenze&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:400,800i&display=swap" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="./[assets]/css/style.css">
-<link rel="stylesheet" type="text/css" href="./contact-form/css/main.css">
-<link rel="stylesheet" type="text/css" href="./contact-form/css/util.css">
-<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
-<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
-<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
-<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
-<link rel="stylesheet" type="text/css" href="css/util.css">
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<link rel="icon" type="image" href="./images/Web-Icon.png">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="icon" type="image" href="./images/Web-Icon.png">
+  <title>LH</title>
+</head>
 
 <body>
 
-<style>
-    body{
-      background-color: #F9EEEE;
-      background-color:  #00e5ff;
-      background-image:
-      radial-gradient(
-      gray,
-      black
-    );
-  }
-  .touch{
-    /* text-decoration: underline; */
-    margin-left: 0%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    font-size: 300%;
-    color:rgb(127,110,214);
-  }
-    html {
-      scroll-behavior: smooth;
-    }
-    iframe{
-      filter: drop-shadow(10px 10px 4px #F6EFA6);
-    }
-    /* NavBar Styling */
-    #myNavbar{
-    /* color: #F6EFA6; */
-    color: rgb(250, 241, 140);
-    font-weight: bolder;
-    background-color: rgb(65,88,120);
-    filter: opacity(90%);
-    }
-    /* Home image (Chicago Starry) over-write */
-    .home-img{
-      fill-opacity: 30%;
-      border: none;
-      /* height: 100%; */
-    }
-    /* Recs on navbar */
-    #recs{
-      float: right;
-    }
-    #portfolio {
-      font-size: 130%;
-      font-weight: bolder;
-    }
-    /* Name on header */
-    h1{
-      /* margin-top: 80px; */
-      /* height: 1000px; */
-      margin-bottom: 12%;
-      margin-top: 17.5%;
-      text-align: center;
-      font-weight: 800;
-      font-size: 120px;
-      font-family: 'Roboto Mono', monospace;
-      font-family: 'Roboto', sans-serif;
-      font-family: 'Permanent Marker', cursive;
-      filter: drop-shadow(10px 10px 4px #00e5ff);
-      color: #FFF284;
-      /* padding-top: 10px; */
-      /* padding-bottom: 90px; */
-    }
-    span {
-      border-right: .05em solid;
-      /* animation: caret 1s steps(1) infinite; */
-    }
-    @keyframes caret {
-      50% {
-        border-color: transparent;
-      }
-    }
-    /* Skillset on header */
-    h2{
-      text-align: center;
-      font-weight: 700;
-      font-size: 45px;
-      font-family: 'Saira Stencil One', cursive;
-      filter: drop-shadow(5px 5px 2px #00e5ff);
-      color: #F6EFA6;
-      /* float: right; */
-      /* height: 160px; */
-      /* background-color:lightgray;
-      border: 3px solid black; */
-    }
+    <!-- HOME IMAGE -->
+    <div class="home">
+        <div class="img-container">
+            <img style="max-width:auto; height:100%;" class="home-img" src="./images/Chicago_BG.jpg"> 
+        </div>
+    </div>
     
-    /* Specified section headers */
-    h3{
-      color:rgb(248, 239, 135);
-      font-weight: bolder;
-      text-align: center;
-      font-weight: 600;
-      font-size: 45px;
-      font-family: 'Montserrat', sans-serif;
-      filter: drop-shadow(5px 5px 2px #00e5ff);
-    }
-    /* Contact Me heading text/box */
-    h4{
-      margin-left: 13%;
-      font-weight: 600;
-      font-size: 50px;
-      background-color:#F6EFA6;
-      margin-right: 10%;
-      border-bottom: 10px solid rgb(248, 239, 135);
-      border-top: 10px solid rgb(248, 239, 135);
-      border-left: 10px solid rgb(248, 239, 135);
-      border-right: 10px solid rgb(248, 239, 135);
-      /* font-family: 'Saira Stencil One', cursive;
-      font-family: 'Butcherman', cursive;
-      font-family: 'Pacifico', cursive; */
-      filter: drop-shadow(5px 5px 2px #00e5ff);
-      font-family: 'Grenze', serif;
-      color: #00e5ff;
-    }
-    /* Speficied Section Sub-Headers */
-    h5{
-      font-family: 'Montserrat', sans-serif;
-      font-size: 18px;
-      font-weight: bolder;
-      text-align: center;
-      /* text-decoration: underline; */
-      filter: drop-shadow(5px 5px 2px #00e5ff);
-      color:  #F6EFA6;
-    }
-    h6{
-      font-family: 'Grenze', serif;
-      font-size: 24px;
-      font-weight: bolder;
-      text-align: center;
-      /* text-decoration: underline; */
-      filter: drop-shadow(5px 5px 2px #00e5ff);
-      color:  #F6EFA6;
-    }
-    h7{
-      margin-left: 20%;
-      /* margin-top:25%; */
-      font-weight: 800;
-      font-size: 100px;
-      font-family: 'Roboto Mono', monospace;
-      font-family: 'Roboto', sans-serif;
-      font-family: 'Permanent Marker', cursive;
-      filter: drop-shadow(10px 10px 4px #FFF284);
-      color: #00e5ff;
-    }
-    /* Info Bar Styling */
-    #bar{
-      background-color:  #F6EFA6;
-      background-image:
-      radial-gradient(
-      #F6EFA6,
-      #00e5ff
-    );
-    /* color: black; */
-      filter: drop-shadow(10px 10px 10px 10px #00e5ff);
-      color:white;
-      width: 130%;
-      margin-left: -150px;
-      font-weight: bold;
-      align-content: center;
-      /* border: 10px solid; */
-      /* border-top-color: 15px black; */
-      /* border-right-color: black; */
-      /* border-bottom-color:black; */
-    }
-    /* Info Bar Top Margin
-    #coolBar{
-      color: darkblue;
-    } */
-    /* Base styling for all images */
-    img{
-      filter: drop-shadow(10px 10px 10px 10px #00e5ff);
-      border: 5px solid #00e5ff; 
-      background-color: #FCF6F6;
-    }
-    .linked-in{
-      background-color:  #F6EFA6;
-      background-image:
-      radial-gradient(
-      #F6EFA6,
-      #00e5ff
-    );
-      float: left;
-      border: none;
-      /* background-color: black; */
-    }
-    .github{
-      background-color:  #F6EFA6;
-      background-image:
-      radial-gradient(
-      #F6EFA6,
-      #00e5ff
-    );
-      border: none;
-      /* background-color: black; */
-    }
-    /* Skillset Chart Styling */
-    p{
-      font-weight: 900;
-      font-size: 18px;
-      color: #E2DEE0;
-    }
-    /* Deployed Web App Styling */
-    .projectBorder{
-      /* border-top: 50px solid rgb(0, 0, 0); */
-      text-align: center;
-      font-weight: 400;
-      filter: drop-shadow(10px 10px 10px 10px #00e5ff);
-      /* background-color: rgba(216, 250, 250, 0.671); */
-      /* background-color: #FAF2F2; */
-      /* border-left-color: black; */
-    }
-    .edits{
-      /* border-top: 50px solid rgb(0, 0, 0); */
-      text-align: center;
-      font-weight: 400;
-      filter: drop-shadow(10px 10px 10px 10px #00e5ff);
-      /* background-color: #F9EEEE; */
-      /* background-color:lightgray; */
-      /* border: 5px solid rgb(0, 23, 124); */
-      /* background-color: rgba(216, 250, 250, 0.671); */
-    }
-    /* Contact Me in-depth styling */
-    .contact {
-      align-content: center;
-      margin-left: 18%;
-      font-weight: 800;
-      font-size: 110%;
-      filter: drop-shadow(5px 5px 2px #00e5ff);
-      width:70%;
-      /* float: left; */
-      color: #F6EFA6;
-    }
-    form{
-      margin-left: 30%;
-      font-weight: 800;
-      font-size: 110%;
-      filter: drop-shadow(5px 5px 2px #00e5ff);
-      width:60%;
-      /* float: left; */
-      color: #F6EFA6;
-    }
-    #contact{
-      align-content: center;
-      margin-left: 18%;
-      font-weight: 800;
-      margin-left: 18%;
-      font-size: 110%;
-      filter: drop-shadow(5px 5px 2px #00e5ff);
-      /* float: left; */
-      color: #F6EFA6;
-    }
-    /* Footer Styling */
-    .my-footer {
-        text-align: center;
-        background-color: rgb(65,88,120);
-        color: #00e5ff;
-        font-weight: 800;
-        font-size: 16px;
-        /* position: absolute; */
-        /* bottom: 0; */
-        /* width: 100%; */
-        padding:10px;
-        height: 50px;
-        margin-top: 2%;
-        /* display: block; */
-    }
-    .floatL{
-      float: left;
-    }
-    /* .bio{
-      height:100px;
-    } */
-    /* Contact Icon Styles */
-    .email{
-      font-family: 'Grenze', serif;
-      border: none;
-      font-weight: 700;
-      background-color: rgb(24, 24, 24);
-      filter: brightness(250%);
-      color: #F6EFA6;
-    }
-    .phone{
-      font-family: 'Grenze', serif;
-      border: none;
-      font-weight: 700;
-      background-color: rgb(24, 24, 24);
-      filter: brightness(250%);
-      color: #F6EFA6;
-    }
-    .location{
-      font-family: 'Grenze', serif;
-      border: none;
-      font-weight: 700;
-      background-color: rgb(40,40,40);
-      color: #F6EFA6;
-    }
- .me{
-   float: left;
-   margin-right: 5%;
-   border-bottom: 10px solid rgb(127,110,214);
-    border-top: 10px solid rgb(127,110,214);
-      border-left: 10px solid rgb(127,110,214);
-      border-right: 10px solid rgb(127,110,214);
- }
-    /* Video Box Styles */
-    iframe{
-      text-align: center;
-      margin-left: 7.5%;
-      text-align: center;
-      font-weight: 400;
-      filter: drop-shadow(10px 10px 10px 10px #00e5ff);
-      /* background-color:lightgray; */
-      border: 5px solid #00e5ff;
-      background-color: rgb(0, 23, 124);
-    }
-    .w3-xlarge{
-      animation: caret 0s steps(0) infinite;
-      color: black;
-      filter: drop-shadow(10px 10px 10px 10px #00e5ff);
-    }
-    
-    /* Specific Photoshop Styles per className */
-    .dallasK{
-      float: right;
-      margin-right: 10%;
-    }
-    .nave{
-      float: left;
-      margin-left: 10%;
-    }
-    .kane{
-      float: right;
-      margin-right: 10%;
-    }
-    .ben{
-      float:left;
-      margin-right: 10%;
-    }
-    .pan{
-      float: left;
-      margin-left: 10%;
-    }
-    .mag{
-      float:left;
-      margin-left: 10%;
-    }
-    #skills{
-      filter: drop-shadow(5px 5px 2px #00e5ff);
-      font-weight: bolder;
-    }
-    #gpa{
-      color: rgb(105, 105, 105);
-    }
-    #proj {
-      color: rgb(105, 105, 105);
-    }
-    #art {
-      color: rgb(105, 105, 105);
-    }
-</style>
+    <!-- HEADING -->
+    <h1 class="header"> Luke J. Hayes</h1>
+    <h2>Digital Portfolio</h2>
 
-<!-- BEGGINING OF HTML SCRIPTS -->
-<html>
-    <body>
-<div class="gradient" id="ab">
-      
-<!-- Navbar/PAGE LAYOUT RESPONSIVENESS -->
-<div class="w3-top">
-  <div class="w3-bar" id="myNavbar">
-  <a class="w3-bar-item w3-button w3-hover-light-blue w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
-    onclick="toggleFunction()" title="Toggle Navigation Menu">
-    <i class="fa fa-bars"></i>
-  </a>
-
-  <a href="#ab" class="w3-bar-item w3-button w3-hover-yellow w3-hide-small"><i class="fa fa-user-circle-o"></i> HOME</a>
-  <a href="#portfolio" class="w3-bar-item w3-button w3-hover-yellow w3-hide-small"><i class="fa fa-file-code-o"></i> CODE</a>
-  <a href="#dma" class="w3-bar-item w3-button w3-hover-yellow w3-hide-small"><i class="fa fa-camera-retro"></i> DMA</a>
-  <a href="#contact" class="w3-bar-item w3-button w3-hover-yellow w3-hide-small"><i class="fa fa-address-card-o"></i> CONTACT</a>
-  <a href="https://docs.google.com/document/d/1ESTAQRfEnoyMGHCGtoPMy7VRO9_BJa-RqiO4wK0h9Vg/edit?usp=sharing" target="_blank" class="w3-bar-item w3-button w3-hover-yellow w3-hide-small" class="w3-bar-item w3-button" class="fa fa-group" id="recs">RECOMMENDATIONS
-    <i style="font-size:24px" class="fa">&#xf0c0;</i>
-  </a>
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-yellow w3-hide w3-hide-large w3-hide-medium">
-  <a href="#ab" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
-  <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
-  <a href="#dma" class="w3-bar-item w3-button" onclick="toggleFunction()">DMA</a>
-  <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
-  <a href="https://docs.google.com/document/d/1ESTAQRfEnoyMGHCGtoPMy7VRO9_BJa-RqiO4wK0h9Vg/edit?usp=sharing" target="_blank" class="fa fa-group" class="w3-bar-item w3-button">RECOMMENDATIONS</a>
-  
-  </div>
-
-</div>
-
-<!-- HOME IMAGE -->
-<div class="bgimg-1 w3-display-container w3-opacity-none" id="home">
-    <div class="w3-display-middle">
-        <img style="max-width:auto; height:100%;" class="home-img" src="./images/Chicago_BG.jpg"> 
-    </div>
-</div>
-
-<!-- NAME HEADING -->
-<h1 class="headerSpacing"> Luke J. Hayes</h1>
-<h7>Digital Portfolio</h7>
-
-<br><br><br><br><br>
-
-<!-- BAR STYLE CHART WITH TOP SKILLS -->
-<h3>My Top Skills</h3><br>
-<div class="w3-content w3-container " id="coolBar">
-<div class="w3-row w3-center" id="bar">
-<div class="w3-quarter w3-section">
-    <span class="w3-xlarge">3.85</span><br>
-    <p id="gpa"> College GPA </p> 
-  </div>
-
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">250+</span><br>
-    <p id="proj"> Code Projects </p>
-  </div>
-
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">100+</span><br>
-    <p id="art"> D.M.A. Edits </p>
-  </div>
-  
-  <div class="w3-quarter w3-section">
-    <span class="w3-xlarge">25+</span><br>
-    <p id="art"> 3D Animations </p>
-  </div>
-
-</div>
-  <br> <br>
-  <div class="w3-content w3-container w3-padding-50" id="skills">
-    <p class="w3-wide"><i class="fa fa-camera"></i>Front-End Web Design</p>
-    <div class="w3-grey">
-      <div class="w3-container w3-padding-small w3-green w3-center" style="width:90%">90%</div>
-    </div>
-    <p class="w3-wide"><i class="fa fa-laptop"></i>Back-End Web Design</p>
-    <div class="w3-grey">
-      <div class="w3-container w3-padding-small w3-green w3-center" style="width:85%">85%</div>
-    </div>
-    <p class="w3-wide"><i class="fa fa-photo"></i>Digital Media Arts</p>
-    <div class="w3-grey">
-      <div class="w3-container w3-padding-small w3-green w3-center" style="width:80%">80%</div>
-    </div>
-  </div>
-  <br><br>
-
-
-<!-- DEPLOYED WEB APP SECTION -->
-<div class="projectBorder" id="portfolio">
-  
-  <h3> Deployed Web Apps!</h3>
-    <h5> Key Languages: Javascript, Node.js, React.js, MongoDB, Express, jQuery, SQL, Sequelize and more.</h5><br>
-
-<!-- CONTAINER FOR MY PORTFOLIO OF DEPLOYED PROJECTS -->
-<div class="w3-content w3-container w3-padding-55">
-<!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-
-    <div class="w3-col m3">
-        <a href="https://lukejhayes.github.io/chrystal-collector/">
-        <img src="./images/react-logo.png" style="width: 90%" onclick="onClick(this)" alt="React Game">
-        <p>React Game</p>
-        </a>
-    </div>
-
-    <div class="w3-col m3">
-        <a href="https://lukejhayes.github.io/Train-Scheduler/">
-        <img src="./images/AWT-Train.png" style="width: 90%" onclick="onClick(this)"alt="Train Scheduler">
-        <p>Train Scheduler</p>
-        </a>
-    </div>
-
-    <div class="w3-col m3">
-      <a href="https://whispering-bastion-84089.herokuapp.com/">
-        <img src="./images/ff-logo.png" style="width: 90%" onclick="onClick(this)" alt="Friend Finder">
-        <p>Friend Finder</p>
-      </a>
-    </div>
-
-    <div class="w3-col m3">
-        <a href="https://lukejhayes.github.io/bubble-sort/">
-        <img src="./images/bubble-logo.png" style="width: 98.5%" onclick="onClick(this)" alt="Bubble Sort">
-        <p>Bubble Sort</p>
-        </a>
-    </div>
-
-  </div>
-
-    <div class="w3-col m3">
-        <a href="https://lukejhayes.github.io/TriviaGame/">
-        <img src="./images/trivia-logo.png" style="width: 85%" onclick="onClick(this)" alt="Trivia Game">
-        <p>Trivia</p>
-        </a>
-    </div>
-
-      <div class="w3-col m3">
-        <a href="https://lukejhayes.github.io/Tipsy/">
-        <img src="./images/wine-glass.png" style="width: 85%" onclick="onClick(this)" alt="Tipsy">
-        <p>Tipsy</p>
-        </a>
-      </div>
-
-      <div class="w3-col m3">
-        <a href="https://lukejhayes.github.io/palindrome/">
-        <img src="./images/Palindrome-logo.png" style="width: 85%" onclick="onClick(this)" alt="Palindorme">
-        <p>Palindorme</p>
-        </a>
-      </div>
-
-      <div class="w3-col m3">
-        <a href="https://lukejhayes.github.io/unit-4-game/">
-        <img src="./images/diamond.png" style="width: 85%" onclick="onClick(this)" alt="Chrystal Collector">
-        <p>Chrystal Collector</p>
-        </a>
-      </div>
-
-    </div>
-</div>
-</div>
-<br>
-<!-- VIDEO GAME CREATIONS SECTION -->
-<div class="games">
-  <h3> Video Game Creations </h3>
-    <h5> Built with C#, Java, Unity 3D and Blender for modeling. </h5><br>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/jqcLsI2Gif0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/-NqIEn6HN-4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <br><br>
-      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/zOnnJDo9UVU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-       <iframe width="560" height="315" src="https://www.youtube.com/embed/qcKnSgYUHVs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/HM5g__6NpTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/bhZH9hr6x7M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>\
-      <br>
-</div>
-<br>
-
-<!-- CLI VIDEOS SECTION -->
-<div class="cli">
-  <h3>Command Line Interface Programs</h3>
-    <h5> Built with JavaScript, Node.JS, Express, MongoDB, mongoose & mySQL </h5><br>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/KRRIof3Gy84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/cCWyFb4aFWo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <br><br><br>
-
-    <!-- ALL NEW PYTHON VIDS -->
-    <h5> Built with Python Programming Language. </h5><br>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/PQVbUnm96ZE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/AfQw2ec4zRQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <br><br>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/rS6De9VywBs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/xyI8xZjvBLs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-    <br><br><br>
-
-    <h5> Built with C++ Programming Language. </h5><br>
-    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/0YrJbDnGta0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/vsVCZpPRp50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <br><br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/xC5T8RsxAAs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/98gUdISzVR8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/5BVLd2BfG4Q" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <br><br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/hHTzVQ3Q1r0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/hHTzVQ3Q1r0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/70QyY2rTb7c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br><br><br>
-    
-    
-</div>
-
-
-<!-- 3D BLENDER ANIMATION VIDEOS SECTION -->
-<div class="blender" id="dma">
-  <h3>3D Models & Animations</h3>
-  <h5>Created with Blender 3D Animator</h5><br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/hwBtIXflLfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/ylGm3CUwjGs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <br><br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/vZhTgSQkHww" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/B17FynDx8yM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br><br><br>
-
-</div>
-
-<div class="splash">
-  <h3> 3D Splash Screens </h3>
-  <h5>Created with Adobe After Effecrs & Blender 3D Animator</h5><br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/5-uzoClOrhU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/nf2a0XAxorw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <br><br>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/1NTqf6LKP90" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/0Hsl7gbudDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br><br><br>
-
-`</div>
-<!-- PHOTOSHOP PICTURE COLLAGE -->
-<div class="edits">
-    <h3> Digital Art </h3>
-    <h5>Created with Adobe Photoshop</h5>
-  <br>
-
-    <img class="pan"src="./images/Panerin.png" style="width: 40%" onclick="onClick(this)" alt="Panerin">
-
-    <img class="ben" src="./images/Ben Commit.png" style="width: 40%" onclick="onClick(this)" alt="Commit">
-
-    <img class="kane" src="./images/Kane.png" style="width: 40%" onclick="onClick(this)" alt="Kane">
-    <img class="nave" src="./images/Evan ft. DALLASK.png" style="width: 40%" onclick="onClick(this)" alt="Flyer2">
-
-    <img class="dallasK" src="./images/EvanftDallasK.png" style="width: 40%" onclick="onClick(this)" alt="Flyer">
-    <img class="mag" src="./images/mag.png" style="width: 40%" onclick="onClick(this)" alt="mag">
-
-<!-- CONTACT ME SECTION -->
-<div class="w3-content w3-container w3-padding-0">
-  <div class="contact" id="contact">
-
-    </div>
-    <br><br>
-
+    <!-- CONTACT ME SECTION -->
     <div class="about-me">
         <img class="me" src="./images/me.jpeg" style="width: 45%">
-    <h5>About Me</h5>
-      <p>Motivated Computer Science Major taking classes at Northwestern University. Member of Phi Theta Kappa Honors Society. Proficient in Business & Data Analytics, specializing in Front-End/ Back-End MERN Web and Mobile Development. I have a profound passion for Digital Media Arts and 3D Modeling, using Adobe After Effects, Photoshop & Blender. </p>
-
-      <h5>Activities & Societies</h5>
-      <p>Computer Programming "Best in Class"</p>
-          <p>Digital Media Arts "Best in Class"</p>
-          <p>President of the Digital Media Arts Club </p>
-          <p>President of the Computer Club</p>
-    </div>
-    <br>
-          <!-- <form class="contact100-form validate-form" id="contactForm">
-              <h7 class="touch">Get in touch</h7>
-            </span>
-            <br><br>
-            <div class="wrap-input100 validate-input" data-validate = "Name is required">
-              <input class="input100" type="text" name="name" placeholder="Name">
-              <span class="focus-input100"></span>
-              <span class="symbol-input100">
-                <i class="fa fa-user" aria-hidden="true"></i>
-              </span>
-            </div>
-    
-            <div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
-              <input class="input100" type="text" name="email" placeholder="Email">
-              <span class="focus-input100"></span>
-              <span class="symbol-input100">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-              </span>
-            </div>
-    
-            <div class="wrap-input100 validate-input" data-validate = "Message is required">
-              <textarea class="input100" name="message" placeholder="Message"></textarea>
-              <span class="focus-input100"></span>
-            </div>
-    
-            <div class="container-contact100-form-btn">
-              <button class="contact100-form-btn">
-                Send
-              </button>
-            </div>
-          </form> -->
-
+          <h3>About Me</h3>
+              <p>Motivated Computer Science Major taking classes at Northwestern University. Member of Phi Theta Kappa Honors Society. Proficient in Business & Data Analytics, specializing in Front-End/ Back-End MERN Web and Mobile Development. I have a profound passion for Digital Media Arts and 3D Modeling, using Adobe After Effects, Photoshop & Blender. </p>
+          <h4>Activities & Societies</h4>
+              <p>Computer Programming "Best in Class"</p>
+              <p>Digital Media Arts "Best in Class"</p>
+              <p>President of the Digital Media Arts Club </p>
+              <p>President of the Computer Club</p>
       </div>
-        <br>
-        <div class="fixed-bottom text-center my-footer"> Copyright of Luke J. Hayes </div>
-
-      </div>
-    </div>
-
-<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<script src="vendor/bootstrap/js/popper.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<script src="vendor/select2/select2.min.js"></script>
-<script src="vendor/tilt/tilt.jquery.min.js"></script>
-<script>
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-</script>
+    
+      <!-- BAR STYLE CHART WITH TOP SKILLS
+      <h3>My Top Skills</h3><br>
+      <div class="w3-content w3-container " id="coolBar">
+      <div class="w3-row w3-center" id="bar">
+      <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">3.85</span><br>
+          <p id="gpa"> College GPA </p> 
+        </div>
+    
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">250+</span><br>
+          <p id="proj"> Code Projects </p>
+        </div>
+    
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">100+</span><br>
+          <p id="art"> D.M.A. Edits </p>
+        </div>
+        
+        <div class="w3-quarter w3-section">
+          <span class="w3-xlarge">25+</span><br>
+          <p id="art"> 3D Animations </p>
+        </div>
+    
+      </div> -->
+    
+      <!-- <div class="w3-content w3-container w3-padding-50" id="skills">
+        <p class="w3-wide"><i class="fa fa-camera"></i>Front-End Web Design</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-padding-small w3-green w3-center" style="width:90%">90%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-laptop"></i>Back-End Web Design</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-padding-small w3-green w3-center" style="width:85%">85%</div>
+        </div>
+        <p class="w3-wide"><i class="fa fa-photo"></i>Digital Media Arts</p>
+        <div class="w3-grey">
+          <div class="w3-container w3-padding-small w3-green w3-center" style="width:80%">80%</div>
+        </div>
+      </div> -->
+    
+    
+  <div class="footer"> Copyright of Luke J. Hayes </div>
+    
+  <script src="./js/type-writer.js"></script>
 
 </body>
-</script>
-
-<script src="./js/type-writer.js"></script>
-<!-- <script src="main.js"></script> -->
-
-
 </html>

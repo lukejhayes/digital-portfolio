@@ -1,0 +1,21 @@
+    /* Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) */
+    /* Specified section headers */
+    h3{
+        color:rgb(248, 239, 135);
+        font-weight: bolder;
+        text-align: center;
+        font-weight: 600;
+        font-size: 45px;
+        font-family: 'Montserrat', sans-serif;
+        filter: drop-shadow(5px 5px 2px #00e5ff);
+      }
+          /* Speficied Section Sub-Headers */
+    h5{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        font-weight: bolder;
+        text-align: center;
+        /* text-decoration: underline; */
+        filter: drop-shadow(5px 5px 2px #00e5ff);
+        color:  #F6EFA6;
+      }
