@@ -1,5 +1,5 @@
 /* Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) */
-body{
+/* body{
     background-color: #F9EEEE;
     background-color:  #00e5ff;
     background-image:
@@ -7,7 +7,7 @@ body{
     gray,
     black
   );
-}
+} */
 
 .navbar{
     height: 45px;
