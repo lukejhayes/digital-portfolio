@@ -6,79 +6,116 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="icon" type="image" href="./images/Web-Icon.png">
-  <title>LH</title>
+  <title>LH Portfolio</title>
 </head>
 
 <body>
 
-    <!-- HOME IMAGE -->
-    <div class="home">
-        <div class="img-container">
-            <img style="max-width:auto; height:100%;" class="home-img" src="./images/Chicago_BG.jpg"> 
-        </div>
-    </div>
-    
-    <!-- HEADING -->
-    <h1 class="header"> Luke J. Hayes</h1>
-    <h2>Digital Portfolio</h2>
+  <!-- NAVBAR SECTION -->
+  <div class="navbar">
+    <img id="navLogo" src="./images/Web-Icon.png"> </img>
+      <span id="nav-links"> <a href="index.html" > HOME </a> </span>
+      <span id="nav-links"> <a href="dma.html" > DMA </a> </span>
+      <span id="nav-links"> <a href="code.html" > CODE </a> </span>
+      <span id="nav-links"> <a href="contact.html" > CONTACT </a> </span>
+  </div>
 
-    <!-- CONTACT ME SECTION -->
-    <div class="about-me">
-        <img class="me" src="./images/me.jpeg" style="width: 45%">
-          <h3>About Me</h3>
-              <p>Motivated Computer Science Major taking classes at Northwestern University. Member of Phi Theta Kappa Honors Society. Proficient in Business & Data Analytics, specializing in Front-End/ Back-End MERN Web and Mobile Development. I have a profound passion for Digital Media Arts and 3D Modeling, using Adobe After Effects, Photoshop & Blender. </p>
-          <h4>Activities & Societies</h4>
-              <p>Computer Programming "Best in Class"</p>
-              <p>Digital Media Arts "Best in Class"</p>
-              <p>President of the Digital Media Arts Club </p>
-              <p>President of the Computer Club</p>
+  <!-- DEPLOYED WEB APP SECTION -->
+  <div class="websites">
+    <h1> Deployed Web Apps!</h1>
+      <h2> Key Languages: Javascript, Node.js, React.js, MongoDB, Express, jQuery, SQL, Sequelize and more.</h2>
+
+<!-- FIX UP CONTAINERS FOR PROPER STYLING -->
+  <!-- INDIVIDUAL SECTION CONTAINERS -->
+      <div class="redirect-links">
+          <a href="https://lukejhayes.github.io/chrystal-collector/">
+              <img src="./images/react-logo.png" style="width: 5%" onclick="onClick(this)" alt="React Game">
+              <p>React Game</p>
+          </a>
+      </div>  
+
+      <div class="redirect-links">
+          <a href="https://lukejhayes.github.io/Train-Scheduler/">
+              <img src="./images/AWT-Train.png" style="width: 5%" onclick="onClick(this)"alt="Train Scheduler">
+              <p>Train Scheduler</p>
+          </a>
       </div>
+
+      <div class="redirect-links">
+          <a href="https://whispering-bastion-84089.herokuapp.com/">
+              <img src="./images/ff-logo.png" style="width: 5%" onclick="onClick(this)" alt="Friend Finder">
+              <p>Friend Finder</p>
+          </a>
+      </div>
+
+      <div class="redirect-links">
+          <a href="https://lukejhayes.github.io/bubble-sort/">
+              <img src="./images/bubble-logo.png" style="width: 5%" onclick="onClick(this)" alt="Bubble Sort">
+              <p>Bubble Sort</p>
+          </a>
+      </div>
+
+      <div class="redirect-links">
+          <a href="https://lukejhayes.github.io/TriviaGame/">
+              <img src="./images/trivia-logo.png" style="width: 5%" onclick="onClick(this)" alt="Trivia Game">
+              <p>Trivia</p>
+          </a>
+      </div>
+
+      <div class="redirect-links">
+          <a href="https://lukejhayes.github.io/Tipsy/">
+              <img src="./images/wine-glass.png" style="width: 5%" onclick="onClick(this)" alt="Tipsy">
+              <p>Tipsy</p>
+          </a>
+      </div>
+
+      <div class="redirect-links">
+          <a href="https://lukejhayes.github.io/palindrome/">
+              <img src="./images/Palindrome-logo.png" style="width: 5%" onclick="onClick(this)" alt="Palindorme">
+              <p>Palindorme</p>
+          </a>
+      </div>
+
+      <div class="redirect-links">
+          <a href="https://lukejhayes.github.io/unit-4-game/">
+              <img src="./images/diamond.png" style="width: 5%" onclick="onClick(this)" alt="Chrystal Collector">
+              <p>Chrystal Collector</p>
+          </a>
+      </div>
+
+  </div>
+
+<footer class="footer">
+    <img id="footLogo" src="./images/Web-Icon.png"> </img>
+    <p class="motto"> "CODED & DESIGNED BY LUKE J. HAYES" </p>
+
+      <a class="footer-links" href="#home">HOME</a>
+      ·
+      <a class="footer-links" href="dma.html">DMA</a>
+      ·
+      <a class="footer-links" href="code.html">CODE</a>
+      ·
+      <a class="footer-links" href="contact.html">CONTACT</a>
+
+    <p class="footer-copyright"> Digital Portfolio &copy; Copyright 2019 </p>
+</footer>
+
+<script>
+    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function() {scrollFunction()};
     
-      <!-- BAR STYLE CHART WITH TOP SKILLS
-      <h3>My Top Skills</h3><br>
-      <div class="w3-content w3-container " id="coolBar">
-      <div class="w3-row w3-center" id="bar">
-      <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">3.85</span><br>
-          <p id="gpa"> College GPA </p> 
-        </div>
-    
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">250+</span><br>
-          <p id="proj"> Code Projects </p>
-        </div>
-    
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">100+</span><br>
-          <p id="art"> D.M.A. Edits </p>
-        </div>
-        
-        <div class="w3-quarter w3-section">
-          <span class="w3-xlarge">25+</span><br>
-          <p id="art"> 3D Animations </p>
-        </div>
-    
-      </div> -->
-    
-      <!-- <div class="w3-content w3-container w3-padding-50" id="skills">
-        <p class="w3-wide"><i class="fa fa-camera"></i>Front-End Web Design</p>
-        <div class="w3-grey">
-          <div class="w3-container w3-padding-small w3-green w3-center" style="width:90%">90%</div>
-        </div>
-        <p class="w3-wide"><i class="fa fa-laptop"></i>Back-End Web Design</p>
-        <div class="w3-grey">
-          <div class="w3-container w3-padding-small w3-green w3-center" style="width:85%">85%</div>
-        </div>
-        <p class="w3-wide"><i class="fa fa-photo"></i>Digital Media Arts</p>
-        <div class="w3-grey">
-          <div class="w3-container w3-padding-small w3-green w3-center" style="width:80%">80%</div>
-        </div>
-      </div> -->
-    
-    
-  <div class="footer"> Copyright of Luke J. Hayes </div>
-    
-  <script src="./js/type-writer.js"></script>
+    function scrollFunction() {
+        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+        document.getElementById("navbar").style.padding = "20px 10px";
+        document.getElementById("logo").style.fontSize = "10px";
+        } else {
+        document.getElementById("navbar").style.padding = "10px 10px";
+        document.getElementById("logo").style.fontSize = "15px";
+        }
+    }
+</script>
+
+<script src="./js/type-writer.js"></script>
 
 </body>
 </html>

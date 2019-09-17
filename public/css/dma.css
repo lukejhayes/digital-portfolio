@@ -1,21 +1,55 @@
-    /* Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) */
-    /* Specified section headers */
-    h3{
-        color:rgb(248, 239, 135);
-        font-weight: bolder;
-        text-align: center;
-        font-weight: 600;
-        font-size: 45px;
-        font-family: 'Montserrat', sans-serif;
-        filter: drop-shadow(5px 5px 2px #00e5ff);
-      }
-          /* Speficied Section Sub-Headers */
-    h5{
-        font-family: 'Montserrat', sans-serif;
-        font-size: 18px;
-        font-weight: bolder;
-        text-align: center;
-        /* text-decoration: underline; */
-        filter: drop-shadow(5px 5px 2px #00e5ff);
-        color:  #F6EFA6;
-      }
+/* Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) */
+body{
+    background-color: #F9EEEE;
+    background-color:  #00e5ff;
+    background-image:
+    radial-gradient(
+    gray,
+    black
+  );
+}
+
+.navbar{
+  height: 45px;
+  background-color: #00e5ff;
+  /* align-content: center; */
+}
+#navLogo{
+  float: left;
+  height: 45px;
+}
+#nav-links{
+  margin-left: 15%;
+  align-content: center;
+  color: red;
+  padding-top: 2%;
+  font-size: 20px;
+}
+
+h1{
+  color: aliceblue;
+  text-align: center;
+}
+h2{
+  color: aliceblue;
+  text-align: center;
+}
+
+.container{
+  align-content: center;
+  margin-left: 10%;
+}
+.ps{
+  margin-left: 15%;
+}
+
+.footer{
+  text-align: center;
+}
+.footer-links{
+  text-align: center;
+}
+#footLogo{
+  height: 50px;
+  align-content: center;
+}

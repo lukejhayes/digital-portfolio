@@ -11,6 +11,9 @@ module.exports = function(app) {
     app.get("/public", (req,res) =>{
         res.sendFile(path.join(__dirname+'/dma.html'));
     });
+    app.get("/public", (req,res) =>{
+        res.sendFile(path.join(__dirname+'/contact.html'));
+    });
 // FILE ROUTES TO SERVER (CSS)
     app.get("/css", (req,res) =>{
         res.sendFile(path.join(__dirname+'/style.css'));
@@ -20,5 +23,8 @@ module.exports = function(app) {
     });
     app.get("/css", (req,res) =>{
         res.sendFile(path.join(__dirname+'/dma.css'));
+    });
+    app.get("/css", (req,res) =>{
+        res.sendFile(path.join(__dirname+'/contact.css'));
     });
 }

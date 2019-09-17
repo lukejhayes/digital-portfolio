@@ -1,1 +1,28 @@
 /* Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) */
+.navbar{
+    height: 45px;
+    background-color: #00e5ff;
+    /* align-content: center; */
+  }
+#navLogo{
+    float: left;
+    height: 45px;
+  }
+#nav-links{
+    margin-left: 15%;
+    align-content: center;
+    color: red;
+    padding-top: 2%;
+    font-size: 20px;
+  }
+  
+.footer{
+    text-align: center;
+  }
+.footer-links{
+    text-align: center;
+  }
+#footLogo{
+    height: 50px;
+    align-content: center;
+  }
