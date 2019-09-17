@@ -12,13 +12,45 @@
 <body>
 
   <!-- NAVBAR SECTION -->
-  <div class="navbar">
+  <!-- <div class="navbar">
     <img id="navLogo" src="./images/Web-Icon.png"> </img>
       <span id="nav-links"> <a href="index.html" > HOME </a> </span>
       <span id="nav-links"> <a href="dma.html" > DMA </a> </span>
       <span id="nav-links"> <a href="code.html" > CODE </a> </span>
       <span id="nav-links"> <a href="contact.html" > CONTACT </a> </span>
-  </div>
+  </div> -->
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">ABOUT</a>
+        <a href="#code">CODE</a>
+        <a href="#dma">DMA</a>
+        <a href="#contact">CONTACT</a>
+        <li style="float:right"><a class="active" href="https://docs.google.com/document/d/1ESTAQRfEnoyMGHCGtoPMy7VRO9_BJa-RqiO4wK0h9Vg/edit?usp=sharing" target="_blank">RECOMMENDATIONS</a></li>
+        
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </div>
+
+    <div class="text-center" style="margin-top:50px;">
+            <img src="images/me.jpeg" width="300" class="profile-pic">
+            <h1>Luke James Hayes</h1>
+            <h2>Full-Stack Developer</h2>
+
+
+          <div class="text-center" style="margin:10px">
+              <a href="https://www.linkedin.com/feed/" class="" target="_blank">
+                  LinkedIn
+              </a>
+          </div>
+          <div class="text-center" style="margin:10px">
+            <a href="https://github.com/lukejhayes" class="" target="_blank">
+                GitHub
+            </a>
+        </div>
+
+    <!-- <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+        <img width="100%" height="100%" src="images/DMA-Logo.jpg">
+    </div> -->
 
   <!-- DEPLOYED WEB APP SECTION -->
   <div class="websites">
@@ -100,9 +132,20 @@
     <p class="footer-copyright"> Digital Portfolio &copy; Copyright 2019 </p>
 </footer>
 
+
 <script>
-    // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-    window.onscroll = function() {scrollFunction()};
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+        x.className += " responsive";
+        } else {
+        x.className = "topnav";
+        }
+    }
+
+        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+        window.onscroll = function() {scrollFunction()};
     
     function scrollFunction() {
         if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
