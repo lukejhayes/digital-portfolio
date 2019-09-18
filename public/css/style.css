@@ -58,7 +58,7 @@ body {
   width: 20%;
 }
 .websites {
-  background-color: #DDDFDF;
+  background-color: rgba(221, 223, 223, 0.822);
 }
 /* section {
   position: relative;
@@ -75,39 +75,46 @@ h1 {
   color: rgba(240, 248, 255, 0.822);
   font-size: 50px;
   text-align: center;
-  filter: drop-shadow(20px 20px 20px black);
+  filter: drop-shadow(15px 0px 5px black);
 }
 h2 {
   font-family: 'Montserrat', sans-serif;
   color: rgba(240, 248, 255, 0.822);
   font-size: 35px;
   text-align: center;
-  filter: drop-shadow(20px 20px 20px black);
+  filter: drop-shadow(15px 0px 5px black);
 }
 h3 {
   color: black;
   font-size: 25px;
   text-align: center;
-  filter: drop-shadow(20px 20px 20px black);
+  filter: drop-shadow(15px 0px 5px black);
 }
 h4 {
   color: rgb(63, 63, 63);
   font-size: 15px;
   text-align: center;
-  filter: drop-shadow(20px 20px 20px black);
+  filter: drop-shadow(15px 0px 5px black);
 }
 
 
 .footer {
   text-align: center;
-  background-color: #8524999d;
+  font-family: 'Montserrat', sans-serif;
   padding-bottom: 20px;
   padding-top: 20px;
   box-shadow: 5px 5px 20px 20px black;
   color: rgba(240, 248, 255, 0.856);
+  background-color:  #00e5ff;
+  background-image:
+  radial-gradient(
+  gray,
+  black
+);
 }
 .footer-links {
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 #footLogo {
   height: 60px;
