@@ -1,6 +1,4 @@
-/* Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) */
-
-body{
+body {
     background-color: #F9EEEE;
     background-color:  #00e5ff;
     background-image:
@@ -10,39 +8,9 @@ body{
   );
 }
 
-h1{
-  color: aliceblue;
-  font-size: 50px;
-}
-h2{
-  color: aliceblue;
-  font-size: 35px;
-}
-
-.footer{
-  text-align: center;
-  background-color: #8524999d;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  box-shadow: 5px 5px 20px 20px black;
-  color: rgba(240, 248, 255, 0.856);
-}
-.footer-links{
-  text-align: center;
-}
-#footLogo{
-  height: 60px;
-  align-content: center;
-}
-
-.profile-pic {
-  box-shadow: 1px 6px 8px 4px lightgrey;
-  border-radius: 50%;
-}
-
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: rgba(211, 211, 211, 0.774);
+  background-color: rgba(211, 211, 211, 0.116);
   overflow: hidden;
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -67,7 +35,7 @@ h2{
   color: black;
 }
 
-/* Add an active class to highlight the current page */
+/* Add an active class to highlight the recommendations page */
 .topnav a.active {
   background-color: #852499;
   color: white;
@@ -76,6 +44,73 @@ h2{
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
   display: none;
+}
+
+.container {
+  margin-top:30px;
+  /* margin-left: 35%; */
+}
+.profile-pic {
+  box-shadow: 1px 6px 8px 4px lightgrey;
+  border-radius: 50%;
+  margin-left: 40%;
+  width: 20%;
+}
+.websites {
+  background-color: #F9EEEE;
+}
+/* section {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 400px;
+  width: 1200px;
+  box-shadow: 0 25px 30px black;
+} */
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(240, 248, 255, 0.822);
+  font-size: 50px;
+  text-align: center;
+  filter: drop-shadow(20px 20px 20px black);
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(240, 248, 255, 0.822);
+  font-size: 35px;
+  text-align: center;
+  filter: drop-shadow(20px 20px 20px black);
+}
+h3 {
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  filter: drop-shadow(20px 20px 20px black);
+}
+h4 {
+  color: rgb(63, 63, 63);
+  font-size: 15px;
+  text-align: center;
+  filter: drop-shadow(20px 20px 20px black);
+}
+
+
+.footer {
+  text-align: center;
+  background-color: #8524999d;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-shadow: 5px 5px 20px 20px black;
+  color: rgba(240, 248, 255, 0.856);
+}
+.footer-links {
+  text-align: center;
+}
+#footLogo {
+  height: 60px;
+  align-content: center;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */

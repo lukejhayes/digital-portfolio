@@ -6,19 +6,13 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="icon" type="image" href="./images/Web-Icon.png">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800i&display=swap" rel="stylesheet">
   <title>LH Portfolio</title>
 </head>
 
 <body>
 
-  <!-- NAVBAR SECTION -->
-  <!-- <div class="navbar">
-    <img id="navLogo" src="./images/Web-Icon.png"> </img>
-      <span id="nav-links"> <a href="index.html" > HOME </a> </span>
-      <span id="nav-links"> <a href="dma.html" > DMA </a> </span>
-      <span id="nav-links"> <a href="code.html" > CODE </a> </span>
-      <span id="nav-links"> <a href="contact.html" > CONTACT </a> </span>
-  </div> -->
+<!-- NAVBAR -->
     <div class="topnav" id="myTopnav">
         <a href="#home" class="active">ABOUT</a>
         <a href="#code">CODE</a>
@@ -27,32 +21,31 @@
         <a class="active" style="float:right" href="https://docs.google.com/document/d/1ESTAQRfEnoyMGHCGtoPMy7VRO9_BJa-RqiO4wK0h9Vg/edit?usp=sharing" target="_blank">RECOMMENDATIONS</a>
     </div>
 
-    <div class="text-center" style="margin-top:50px;">
-            <img src="images/me.jpeg" width="300" class="profile-pic">
-            <h1>Luke James Hayes</h1>
-            <h2>Full-Stack Developer</h2>
-
-
-          <div class="text-center" style="margin:10px">
-              <a href="https://www.linkedin.com/feed/" class="" target="_blank">
+    <div class="container">
+      <img class="profile-pic" src="images/me.jpeg">
+        <h1>Luke James Hayes</h1>
+        <h2>Full-Stack Developer</h2>
+        <!-- ADD ICONS FOR LINKS -->
+          <div style="margin:10px 0px 0px 690px">
+              <a href="https://www.linkedin.com/feed/" target="_blank">
                   LinkedIn
               </a>
           </div>
-          <div class="text-center" style="margin:10px">
-            <a href="https://github.com/lukejhayes" class="" target="_blank">
-                GitHub
-            </a>
-        </div>
+          <div style="margin:10px 0px 10px 690px">
+              <a href="https://github.com/lukejhayes" style="text-align: center" target="_blank">
+                  GitHub
+              </a>
+          </div>
+    </div>
 
-    <!-- <div style="position: fixed; z-index: -99; width: 100%; height: 100%">
-        <img width="100%" height="100%" src="images/DMA-Logo.jpg">
-    </div> -->
-
-  <!-- DEPLOYED WEB APP SECTION -->
   <div class="websites">
-    <h1> Deployed Web Apps!</h1>
-      <h2> Key Languages: Javascript, Node.js, React.js, MongoDB, Express, jQuery, SQL, Sequelize and more.</h2>
 
+    <div style="padding-top: 10px">
+        <h3> Deployed Web Apps!</h2>
+        <h4> Key Languages: Javascript, Node.js, React.js, MongoDB, Express, jQuery, SQL, Sequelize and more.</h3>
+    </div>
+
+<section>
 <!-- FIX UP CONTAINERS FOR PROPER STYLING -->
   <!-- INDIVIDUAL SECTION CONTAINERS -->
       <div class="redirect-links">
@@ -61,6 +54,7 @@
               <p>React Game</p>
           </a>
       </div>  
+</section>
 
       <div class="redirect-links">
           <a href="https://lukejhayes.github.io/Train-Scheduler/">
@@ -113,6 +107,7 @@
 
   </div>
 
+<!-- FOOTER -->
 <footer class="footer">
     <img id="footLogo" src="./images/Web-Icon.png"> </img>
     <p class="motto"> "CODED & DESIGNED BY LUKE J. HAYES" </p>
@@ -130,26 +125,16 @@
 
 
 <script>
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-    function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-        x.className += " responsive";
-        } else {
-        x.className = "topnav";
-        }
-    }
+// When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
+    window.onscroll = function() {scrollFunction()};
 
-        // When the user scrolls down 80px from the top of the document, resize the navbar's padding and the logo's font size
-        window.onscroll = function() {scrollFunction()};
-    
     function scrollFunction() {
         if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-        document.getElementById("navbar").style.padding = "20px 10px";
-        document.getElementById("logo").style.fontSize = "10px";
+        document.getElementById("myTopnav").style.padding = "20px 10px";
+        // document.getElementById("logo").style.fontSize = "10px";
         } else {
-        document.getElementById("navbar").style.padding = "10px 10px";
-        document.getElementById("logo").style.fontSize = "15px";
+        document.getElementById("myTopnav").style.padding = "10px 10px";
+        // document.getElementById("logo").style.fontSize = "15px";
         }
     }
 </script>
