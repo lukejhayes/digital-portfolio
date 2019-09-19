@@ -156,12 +156,7 @@ p {
   padding-top: 20px;
   box-shadow: 5px 5px 20px 20px black;
   color: rgba(240, 248, 255, 0.856);
-  background-color:  #00e5ff;
-  background-image:
-  radial-gradient(
-  gray,
-  black
-);
+  background-color:black;
 }
 .footer-links {
   text-align: center;
