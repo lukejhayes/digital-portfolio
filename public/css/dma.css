@@ -1,5 +1,6 @@
 /* Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) */
 body{
+    margin: 0;
     background-color: #F9EEEE;
     background-color:  #00e5ff;
     background-image:
@@ -57,10 +58,6 @@ h1 {
   filter: drop-shadow(15px 0px 5px black);
 }
 
-/* h2{
-  color: aliceblue;
-  text-align: center;
-} */
 p {
   filter: drop-shadow(7px 0px 5px black);  
   font-family: 'Montserrat', sans-serif;
@@ -127,6 +124,7 @@ iframe{
 .footer-links {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  font-size: 110%;
 }
 #footLogo {
   height: 60px;

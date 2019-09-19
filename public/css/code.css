@@ -1,38 +1,78 @@
-/* Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) */
-/* body{
-    background-color: #F9EEEE;
-    background-color:  #00e5ff;
-    background-image:
-    radial-gradient(
-    gray,
-    black
-  );
-} */
-
-.navbar{
-    height: 45px;
-    background-color: #00e5ff;
-    /* align-content: center; */
-  }
-#navLogo{
-    float: left;
-    height: 45px;
-  }
-#nav-links{
-    margin-left: 15%;
-    align-content: center;
-    color: red;
-    padding-top: 2%;
-    font-size: 20px;
-  }
-
-h1{
-    color: aliceblue;
-    text-align: center;
+/* Add a black background color to the top navigation */
+body{
+  margin: 0;
+  background-color: #F9EEEE;
+  background-color:  #00e5ff;
+  background-image:
+  radial-gradient(
+  gray,
+  black
+);
 }
-h2{
-    color: aliceblue;
-    text-align: center;
+.topnav {
+  background-color: rgba(211, 211, 211, 0.116);
+  overflow: hidden;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  /* box-shadow: 5px 5px 5px 5px rgba(211, 211, 211, 0.774); */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #DDDFDF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the recommendations page */
+.topnav a.active {
+  background-color: #852499a6;
+  color: rgba(221, 223, 223, 0.829);
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(240, 248, 255, 0.822);
+  font-size: 50px;
+  text-align: center;
+  filter: drop-shadow(15px 0px 5px black);
+}
+
+p {
+  filter: drop-shadow(7px 0px 5px black);  
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Josefin Sans', sans-serif; */
+  color: rgba(240, 248, 255, 0.822);
+  /* color: black; */
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  /* filter: drop-shadow(15px 0px 5px black); */
+  margin-left: 15%;
+  margin-right: 15%;
+  line-height: 25px;
+}
+
+iframe{
+  filter: drop-shadow(7px 5px 4px #852499a6);
+  border: 2px solid #00e5ffc4; 
 }
 
 .container{
@@ -51,13 +91,21 @@ h2{
     /* margin-left: 15%; */
 }
 
-.footer{
-    text-align: center;
-  }
-  .footer-links{
-    text-align: center;
-  }
-  #footLogo{
-    height: 50px;
-    align-content: center;
-  }
+.footer {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-shadow: 5px 5px 20px 20px black;
+  color: rgba(240, 248, 255, 0.856);
+  background-color:black;
+}
+.footer-links {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 110%;
+}
+#footLogo {
+  height: 60px;
+  align-content: center;
+}

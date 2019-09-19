@@ -1,28 +1,57 @@
-/* Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) */
-.navbar{
-    height: 45px;
-    background-color: #00e5ff;
-    /* align-content: center; */
-  }
-#navLogo{
-    float: left;
-    height: 45px;
-  }
-#nav-links{
-    margin-left: 15%;
-    align-content: center;
-    color: red;
-    padding-top: 2%;
-    font-size: 20px;
-  }
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(211, 211, 211, 0.116);
+  overflow: hidden;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  /* box-shadow: 5px 5px 5px 5px rgba(211, 211, 211, 0.774); */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #DDDFDF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add an active class to highlight the recommendations page */
+.topnav a.active {
+  background-color: #852499a6;
+  color: rgba(221, 223, 223, 0.829);
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
   
-.footer{
-    text-align: center;
-  }
-.footer-links{
-    text-align: center;
-  }
-#footLogo{
-    height: 50px;
-    align-content: center;
-  }
+.footer {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-shadow: 5px 5px 20px 20px black;
+  color: rgba(240, 248, 255, 0.856);
+  background-color:black;
+}
+.footer-links {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 110%;
+}
+#footLogo {
+  height: 60px;
+  align-content: center;
+}

@@ -1,4 +1,5 @@
 body {
+    margin: 0;
     background-color: #F9EEEE;
     background-color:  #00e5ff;
     background-image:
@@ -161,6 +162,7 @@ p {
 .footer-links {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
+  font-size: 110%;
 }
 #footLogo {
   height: 60px;
