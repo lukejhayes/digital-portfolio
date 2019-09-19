@@ -116,11 +116,13 @@ h3 {
   /* color: black; */
   font-size: 30px;
   text-align: center;
-  filter: drop-shadow(15px 0px 5px black);
+  filter: drop-shadow(7px 0px 5px black);
   font-weight: bolder;
   margin-left: 15%;
   margin-right: 15%;
-  margin-top: 5%;
+  margin-top: 2%;
+  filter: brightness(120%);
+  /* font-family: 'Josefin Sans', sans-serif; */
 }
 h4 {
   filter: drop-shadow(15px 0px 5px black);  
@@ -133,11 +135,12 @@ h4 {
   /* filter: drop-shadow(15px 0px 5px black); */
 }
 p {
-  filter: drop-shadow(15px 0px 5px black);  
+  filter: drop-shadow(7px 0px 5px black);  
   font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Josefin Sans', sans-serif; */
   color: rgba(240, 248, 255, 0.822);
   /* color: black; */
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
   font-weight: bold;
   /* filter: drop-shadow(15px 0px 5px black); */
