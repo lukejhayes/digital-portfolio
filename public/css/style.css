@@ -93,7 +93,7 @@ section {
   transform: translate(-50%,-50%);
   height: 540px;
   width: 1500px;
-  box-shadow: 0 25px 30px lightgrey;;
+  box-shadow: 0 20px 30px black;
   display: flex;
 }
 

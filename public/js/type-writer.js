@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded',function(event){
     // array with texts to type in typewriter
     var dataText = ["UI / UX Designer", "Full-Stack Developer", "Digital Media Artist"];
-    
+    var i = 0;
     // type one text in the typwriter
     // keeps calling itself until the text is finished
     function typeWriter(text, i, fnCallback) {
