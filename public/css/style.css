@@ -73,9 +73,6 @@ body {
   background-color: #85249970;
   /* background-color: rgba(89, 63, 98, 0.836); */
   width:50%;
-  /* padding-top: 10px; */
-  /* padding-bottom: 10px; */
-  /* transform:rotate(3deg); */
   position: relative;
   width: 50%;
   height: 540px;
@@ -83,9 +80,6 @@ body {
 .img-box {
   background-color: black;
   width:50%;
-  /* padding-top: 10px; */
-  /* padding-bottom: 10px; */
-  /* transform:rotate(3deg); */
   position: relative;
   width: 50%;
   height: 420px;
@@ -180,16 +174,15 @@ p {
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-@media screen and (max-width: 600px) {
+
+
+
+@media screen and (max-width: 450px) {
+  a.active{
+    display: none;
+  }
   .topnav.responsive {position: relative;}
   .topnav.responsive a.icon {
     position: absolute;
@@ -201,4 +194,81 @@ p {
     display: block;
     text-align: left;
   }
+  p {
+    font-size: 9px;
+    font-weight: bold;
+    line-height: 125%;
+    margin-top: 0%;
+    text-align: center;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 14px;
+    margin-bottom: 3%;
+    margin-top: 2%;
+  }
+
+  .profile-pic {
+    margin-top: 7%;
+    box-shadow: 1px 6px 8px 4px lightgrey;
+    border-radius: 50%;
+    margin-left: 32%;
+    width: 35%;
+  }
+
+  .wrapper {
+    transform:rotate(3deg);
+    width: 100%;
+    margin-top: 8%;
+    margin-bottom: 10%;
+  }
+  .about {
+    background-color: #85249970;
+    position: relative;
+    width: 100%;
+    height: 240px;
+  }
+  .img-box {
+    display: none;
+  }
+  
+  section {
+    margin-bottom: 0%;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 240px;
+    width: 395px;
+    box-shadow: 0 10px 20px black;
+    display: flex;
+  }
+  .footer-links {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #footLogo {
+    margin-bottom:10px;
+    height: 60px;
+    align-content: center;
+  }
+  .foot-container {
+    margin-bottom:0%;
+    margin-top:60%;
+    align-content: center;
+  }
+  .motto {
+    text-align: center;
+  }
+  .footer-copyright {
+    margin-top:17px;
+    text-align: center;
+  }
+
 }
