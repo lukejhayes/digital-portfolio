@@ -202,6 +202,9 @@ h4 {
     display: block;
     text-align: left;
   }
+  .links {
+    display: none;
+  }
   p {
     font-family: 'Montserrat', sans-serif;
     font-size: 9px;
