@@ -57,6 +57,7 @@ body{
 }
 
 h1 {
+  margin-bottom: 0%;
   font-family: 'Montserrat', sans-serif;
   color: rgba(240, 248, 255, 0.822);
   font-size: 50px;
@@ -84,7 +85,7 @@ p {
   /* filter: drop-shadow(15px 0px 5px black); */
   margin-left: 15%;
   margin-right: 15%;
-  line-height: 25px;
+  /* line-height: 25px; */
 }
 
 iframe{
@@ -108,6 +109,7 @@ iframe{
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 20px;
+  margin-top: 40px;
   padding-top: 20px;
   box-shadow: 5px 5px 20px 20px black;
   color: rgba(240, 248, 255, 0.856);
@@ -147,10 +149,10 @@ iframe{
     font-weight: bolder;
   }
   h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
   h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
   iframe{
     filter: drop-shadow(7px 5px 4px #852499a6);
@@ -158,18 +160,28 @@ iframe{
     width: 90%;
     height: auto;
   }
+
   .footer-links {
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
     font-family: 'Montserrat', sans-serif;
   }
   #footLogo {
+    margin-bottom:10px;
     height: 60px;
     align-content: center;
   }
   .foot-container {
-    margin-top:10px;
+    margin-bottom:0%;
+    margin-top:20%;
     align-content: center;
+  }
+  .motto {
+    text-align: center;
+  }
+  .footer-copyright {
+    margin-top:17px;
+    text-align: center;
   }
 
 }

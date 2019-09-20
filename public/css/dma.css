@@ -160,12 +160,20 @@ iframe{
     display: block;
     text-align: left;
   }
+  
+  .mobile-none {
+    display: none;
+  }
   p {
-    font-size: 7px;
+    font-size: 9px;
     font-weight: bold;
+    line-height: 125%;
+    margin-top: 0%;
+    text-align: center;
   }
   h1 {
-    font-size: 25px;
+    font-size: 22px;
+    margin-bottom: 5%;
   }
   iframe{
     filter: drop-shadow(7px 5px 4px #852499a6);
@@ -173,18 +181,28 @@ iframe{
     width: 90%;
     height: auto;
   }
+
   .footer-links {
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
     font-family: 'Montserrat', sans-serif;
   }
   #footLogo {
+    margin-bottom:10px;
     height: 60px;
     align-content: center;
   }
   .foot-container {
-    margin-top:5s0px;
+    margin-bottom:0%;
+    margin-top:150%;
     align-content: center;
+  }
+  .motto {
+    text-align: center;
+  }
+  .footer-copyright {
+    margin-top:17px;
+    text-align: center;
   }
 
 }
