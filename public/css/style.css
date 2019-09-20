@@ -224,14 +224,15 @@ p {
   .wrapper {
     transform:rotate(3deg);
     width: 100%;
-    margin-top: 8%;
+    margin-top: 10%;
     margin-bottom: 10%;
+    
   }
   .about {
     background-color: #85249970;
     position: relative;
     width: 100%;
-    height: 240px;
+    height: 300px;
   }
   .img-box {
     display: none;
@@ -243,7 +244,7 @@ p {
     top: 120%;
     left: 50%;
     transform: translate(-50%,-50%);
-    height: 240px;
+    height: 300px;
     width: 395px;
     box-shadow: 0 10px 20px black;
     display: flex;
