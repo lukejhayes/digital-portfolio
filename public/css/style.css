@@ -72,33 +72,71 @@ body {
 }
 .about {
   background-color: #85249970;
-  /* background-color: rgba(89, 63, 98, 0.836); */
   width:50%;
   position: relative;
   width: 50%;
-  height: 540px;
+  height: 550px;
 }
 .img-box {
   background-color: black;
   width:50%;
   position: relative;
-  width: 50%;
-  height: 420px;
+  height: 550px;
 }
-
 section {
   /* transform:rotate(3deg); */
   position: absolute;
   top: 120%;
   left: 50%;
   transform: translate(-50%,-50%);
-  height: 540px;
+  height: 550px;
   width: 1500px;
   box-shadow: 0 30px 40px black;
   display: flex;
 }
+.hayesbeer {
+  background-color: #00e5ff8f;
+  /* background-color: #00e5ff56; */
+  /* background-color: #85249970; */
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 550px;
+    width: 1500px;
+    box-shadow: 0 30px 40px black;
+    display: flex;
+}
+.img-box2 {
+  background-color: black;
+  width:40%;
+  position: relative;
+  height: 550px;
+}
+.webaps {
+  margin-top: 700px;
+  background-color: #00e5ff;
+}
+.discription {
+  background-color: #00e5ff8f;
+  /* background-color: #00e5ff; */
+  /* background-color: #85249970; */
+  width:60%;
+  position: relative;
+  /* width: 50%; */
+  height: 550px;
+}
+
+.webwrap {
+  transform:rotate(-2deg);
+  width: 100%;
+  margin-top: 70%;
+  background-color: black;
+}
+
 
 h1 {
+  font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   color: rgba(240, 248, 255, 0.822);
   font-size: 50px;
@@ -113,7 +151,8 @@ h2 {
   filter: drop-shadow(15px 0px 5px black);
 }
 h3 {
-  font-family: 'Mansalva', cursive;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* font-family: 'Mansalva', cursive; */
   color: black;
   font-size: 40px;
   text-align: center;
@@ -177,7 +216,7 @@ h4 {
   align-content: center;
 }
 .foot-container {
-  margin-top: 55%;
+  margin-top: 115%;
   align-content: center;
 }
 
@@ -265,7 +304,6 @@ h4 {
     width: 100%;
     margin-top: 50%;
     margin-bottom: 10%;
-    
   }
   .about {
     background-color: #85249970;
@@ -276,7 +314,6 @@ h4 {
   .img-box {
     display: none;
   }
-  
   section {
     margin-bottom: 0%;
     position: absolute;
@@ -284,10 +321,11 @@ h4 {
     left: 50%;
     transform: translate(-50%,-50%);
     height: 300px;
-    width: 395px;
+    width: 375px;
     box-shadow: 0 10px 20px black;
     display: flex;
   }
+
   .footer-links {
     text-align: center;
     font-size: 10px;

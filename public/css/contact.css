@@ -77,6 +77,47 @@ body {
   align-content: center;
 }
 .foot-container {
-  margin-top:30px;
   align-content: center;
+}
+
+
+
+.hayesbeer {
+  background-color: #00e5ff8f;
+  /* background-color: #00e5ff56; */
+  /* background-color: #85249970; */
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 550px;
+    width: 1500px;
+    box-shadow: 0 30px 40px black;
+    display: flex;
+}
+.img-box2 {
+  background-color: black;
+  width:40%;
+  position: relative;
+  height: 550px;
+}
+.webaps {
+  margin-top: 200px;
+  background-color: #00e5ff;
+}
+.discription {
+  background-color: #00e5ff8f;
+  /* background-color: #00e5ff; */
+  /* background-color: #85249970; */
+  width:60%;
+  position: relative;
+  /* width: 50%; */
+  height: 550px;
+}
+
+.webwrap {
+  transform:rotate(-2deg);
+  width: 100%;
+  margin-top: 25%;
+  background-color: black;
 }

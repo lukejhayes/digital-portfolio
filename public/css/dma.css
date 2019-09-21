@@ -60,6 +60,7 @@ body{
 
 
 h1 {
+  font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   color: rgba(240, 248, 255, 0.822);
   font-size: 50px;
