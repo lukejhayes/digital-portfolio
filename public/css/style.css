@@ -10,6 +10,7 @@ body::before {
 }
 body {
     margin: 0;
+    width: 100%;
     background-color: #F9EEEE;
     background-color:  #00e5ff;
     background-image:
@@ -95,17 +96,15 @@ section {
   display: flex;
 }
 .hayesbeer {
-  /* background-color: #00e5ff8f; */
-  /* background-color: #00e5ff56; */
-  /* background-color: #85249970; */
     position: absolute;
-    top: 180%;
+    top: 140%;
     left: 50%;
     transform: translate(-50%,-50%);
     height: 550px;
-    width: 1500px;
+    /* width: 1500px; */
     box-shadow: 0 30px 40px black;
     display: flex;
+    margin-top: 40%;
 }
 .img-box2 {
   background-color: black;
@@ -129,7 +128,7 @@ section {
 .webwrap {
   transform:rotate(-2deg);
   width: 100%;
-  margin-top: 70%;
+  margin-top: 30%;
   background-color: black;
 }
 
@@ -289,6 +288,9 @@ h4 {
     margin-bottom: 3%;
     margin-top: 2%;
   }
+  a.hb {
+    font-size: 16px;
+  }
 
   .profile-pic {
     margin-top: 7%;
@@ -314,6 +316,7 @@ h4 {
     display: none;
   }
   section {
+    transform:rotate(3deg);
     margin-bottom: 60%;
     position: absolute;
     top: 120%;
@@ -343,6 +346,8 @@ h4 {
     height: 250px;
   }
   .webaps {
+    transform:rotate(-3deg);
+
     margin-top: 90%;
     /* background-color: #00e5ff; */
   }
@@ -361,6 +366,10 @@ h4 {
     margin-bottom: 10%;
   }
 
+  button {
+    display: none;
+  }
+
   .footer-links {
     text-align: center;
     font-size: 10px;
@@ -373,7 +382,7 @@ h4 {
   }
   .foot-container {
     margin-bottom:0%;
-    margin-top:90%;
+    margin-top:180%;
     align-content: center;
   }
   .motto {
