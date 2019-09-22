@@ -80,7 +80,14 @@ body {
   align-content: center;
 }
 
-
+h1 {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(240, 248, 255, 0.822);
+  font-size: 50px;
+  text-align: center;
+  filter: drop-shadow(15px 0px 5px black);
+}
 
 .hayesbeer {
   background-color: #00e5ff8f;
@@ -97,19 +104,24 @@ body {
 }
 .img-box2 {
   background-color: black;
-  width:40%;
+  width:28%;
   position: relative;
   height: 550px;
+  filter: drop-shadow(7px 5px 4px #852499a6);
+  box-shadow: 0 30px 40px black;
+
 }
 .webaps {
   margin-top: 200px;
   background-color: #00e5ff;
 }
 .discription {
-  background-color: #00e5ff8f;
+  background-color: black;
+  /* filter: drop-shadow(7px 5px 4px #852499a6); */
+
   /* background-color: #00e5ff; */
   /* background-color: #85249970; */
-  width:60%;
+  width:72%;
   position: relative;
   /* width: 50%; */
   height: 550px;
@@ -120,4 +132,6 @@ body {
   width: 100%;
   margin-top: 25%;
   background-color: black;
+  filter: drop-shadow(7px 5px 4px #852499a6);
+
 }

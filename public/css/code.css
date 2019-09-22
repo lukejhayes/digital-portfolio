@@ -71,8 +71,6 @@ h2 {
   text-align: center;
   filter: drop-shadow(15px 0px 5px black);
 }
-
-
 p {
   filter: drop-shadow(7px 0px 5px black);  
   font-family: 'Montserrat', sans-serif;
@@ -181,9 +179,10 @@ iframe{
   .motto {
     text-align: center;
   }
-  .mobile-none {
+  /* FIX THIS */
+  /* .mobile-none {
     display: none;
-  }
+  } */
   .footer-copyright {
     margin-top:17px;
     text-align: center;
