@@ -26,8 +26,6 @@
 // scene.add(backLight);
 
 
-
-
 // var mtlLoader = new THREE.MTLLoader();
 // mtlLoader.setTexturePath('/examples/3d-obj-loader/assets/');
 // mtlLoader.setPath('/examples/3d-obj-loader/assets/');

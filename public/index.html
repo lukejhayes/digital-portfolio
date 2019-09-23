@@ -5,13 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="icon" type="image" href="./images/Web-Icon.png">
 
   <!-- FONTS -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800i&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- JQUERY -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+  <!-- THREE.JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/87/three.min.js"></script>
 
-  <link rel="icon" type="image" href="./images/Web-Icon.png">
   <title>LH Portfolio</title>
 </head>
 
@@ -71,29 +78,97 @@
   </section>
 </div>
 
-<div class="webwrap">
-    <section class="hayesbeer">
-
-        <div class="img-box2">
-            <button href="https://warm-hollows-88808.herokuapp.com/" style="background-color: rgba(197, 164, 55, 0.842); float: right; margin-right: 38%; margin-top: 8%; font-size: 30px;" target="_blank" class="btn btn-info btn-lg">Go to App</button>
-            <img width=100%; height="90%;" src="images/hb-logo copy.png">
-        </div>
-
-        <div class="discription">
-            <h3> Hayes Beer Distributing Website </h3>
-                <p class="intro">
-                    Goal-oriented Web Developer with a strong commitment to collaboration and solutions-oriented problem-solving. 
-                    Experienced with implementing a custom CSS grid system, including flexbox and CSS media queries for mobile responsiveness. 
-                </p>
-            <h3> Description </h3>
-                <p class="background">
-
-                    Certified Full-Stack Web Developer by Northwestern Coding Bootcamp.
-                    Currently, I'm finishing my Computer Science degree at Northwestern University. 
-                </p>
-        </div>
+<div class="slider">
+    <div class="slider-wrapper flex" id="carosel">
         
-    </section>
+        <div class="slide flex">
+            <div class="slide-image slider-link next">
+                <a href="https://warm-hollows-88808.herokuapp.com/">
+                <img src="./images/hb-logo copy.png" >
+                </a>
+            </div>
+            <div class="slide-content">
+                <div class="slide-date"> Freelance Mern-Stack Website</div>
+                <div class="slide-title"> Hayes Beer Distributing Company </div>
+                <div class="slide-text">
+                    <p> 
+                        For this specific project, I used a Node and Express Web Server backed by a MySQL Database with a Sequelize ORM. 
+                        I created both GET and POST routes for retrieving and adding new data. 
+                        Involving the authentication of employees for proper data access rights through a React.js 'Login' Page.
+                    </p>
+                    <a class="slide-more" href="https://warm-hollows-88808.herokuapp.com/">View Site</a>
+                </div>
+            </div>	
+        </div>
+
+        <div class="slide flex">
+            <div class="slide-image slider-link next">
+                <a href="https://warm-hollows-88808.herokuapp.com/">
+                <img src="./images/hb-logo copy.png" >
+                </a>
+            </div>
+            <div class="slide-content">
+                <div class="slide-date"> Freelance Mern-Stack Website</div>
+                <div class="slide-title"> Hayes Beer Distributing Company </div>
+                <div class="slide-text">
+                    <p> 
+                        For this specific project, I used a Node and Express Web Server backed by a MySQL Database with a Sequelize ORM. 
+                        I created both GET and POST routes for retrieving and adding new data. 
+                        Involving the authentication of employees for proper data access rights through a React.js 'Login' Page.
+                    </p>
+                    <a class="slide-more" href="https://warm-hollows-88808.herokuapp.com/">View Site</a>
+                </div>
+            </div>	
+        </div>
+
+        <div class="slide flex">
+            <div class="slide-image slider-link next">
+                <a href="https://warm-hollows-88808.herokuapp.com/">
+                <img src="./images/hb-logo copy.png" >
+                </a>
+            </div>
+            <div class="slide-content">
+                <div class="slide-date"> Freelance Mern-Stack Website</div>
+                <div class="slide-title"> Hayes Beer Distributing Company </div>
+                <div class="slide-text">
+                    <p> 
+                        For this specific project, I used a Node and Express Web Server backed by a MySQL Database with a Sequelize ORM. 
+                        I created both GET and POST routes for retrieving and adding new data. 
+                        Involving the authentication of employees for proper data access rights through a React.js 'Login' Page.
+                    </p>
+                    <a class="slide-more" href="https://warm-hollows-88808.herokuapp.com/">View Site</a>
+                </div>
+            </div>	
+        </div>
+
+        <div class="slide flex">
+            <div class="slide-image slider-link next">
+                <a href="https://warm-hollows-88808.herokuapp.com/">
+                <img src="./images/hb-logo copy.png" >
+                </a>
+            </div>
+            <div class="slide-content">
+                <div class="slide-date"> Freelance Mern-Stack Website</div>
+                <div class="slide-title"> Hayes Beer Distributing Company </div>
+                <div class="slide-text">
+                    <p> 
+                        For this specific project, I used a Node and Express Web Server backed by a MySQL Database with a Sequelize ORM. 
+                        I created both GET and POST routes for retrieving and adding new data. 
+                        Involving the authentication of employees for proper data access rights through a React.js 'Login' Page.
+                    </p>
+                    <a class="slide-more" href="https://warm-hollows-88808.herokuapp.com/">View Site</a>
+                </div>
+            </div>	
+        </div>
+
+    </div>
+
+    <!-- MAKE ROUTE FOR ID TAG  -->
+    <div class="arrows">
+        <a href="#" title="Previous" class="arrow slider-link prev"></a>
+        <a href="#" title="Next" class="arrow slider-link next"></a>
+    </div>
+
 </div>
 
 
@@ -185,9 +260,11 @@
     </footer>
 </div>
 
+<!-- JS LINKS -->
 <script src="./js/type-writer.js"></script>
-<!-- <script src="./js/blender.js"></script> -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/87/three.min.js"></script>
+<script src="./js/slider.js"></script>
+
+
 
 </body>
 </html>
