@@ -151,7 +151,8 @@ h2 {
   filter: drop-shadow(15px 0px 5px black);
 }
 h3 {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
   /* font-family: 'Mansalva', cursive; */
   color: black;
   font-size: 40px;
@@ -196,6 +197,11 @@ h4 {
   margin-top: 0%;
   line-height: 30px;
 }
+.slider {
+  box-shadow: 5px 5px 20px 20px rgba(0, 0, 0, 0.788);
+  background-color: #85249970;
+
+}
 
 .footer {
   text-align: center;
@@ -216,7 +222,7 @@ h4 {
   align-content: center;
 }
 .foot-container {
-  margin-top: 10%;
+  margin-top: 15%;
   align-content: center;
 }
 
