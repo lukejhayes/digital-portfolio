@@ -59,21 +59,63 @@ body {
   display: none;
 }
 
+h1 {
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(240, 248, 255, 0.822);
+  font-size: 50px;
+  text-align: center;
+  filter: drop-shadow(15px 0px 5px black);
+}
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(240, 248, 255, 0.822);
+  font-size: 35px;
+  text-align: center;
+  filter: drop-shadow(15px 0px 5px black);
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  /* font-family: 'Mansalva', cursive; */
+  color: rgba(240, 248, 255, 0.822);
+  font-size: 40px;
+  text-align: center;
+  filter: drop-shadow(15px 0px 5px black);
+  /* filter: drop-shadow(10px 0px 5px lightgrey); */
+  font-weight: 900;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+h4 {
+  filter: drop-shadow(15px 0px 5px black);  
+  font-family: 'Montserrat', sans-serif;
+  /* color: rgb(63, 63, 63); */
+  color: rgba(240, 248, 255, 0.822);
+  font-size: 20px;
+  /* font-weight: bold; */
+  text-align: center;
+  /* filter: drop-shadow(15px 0px 5px black); */
+}
+p {
+  filter: drop-shadow(15px 0px 5px black);  
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(240, 248, 255, 0.822);
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .profile-pic {
-  box-shadow: 1px 6px 8px 4px lightgrey;
+  box-shadow: 1px 6px 8px 4px solid black;
   border-radius: 50%;
   margin-left: 40%;
   margin-top: 2%;
   width: 20%;
 }
-.wrapper {
-  transform:rotate(3deg);
-  width: 100%;
-  margin-top: 22%;
-  margin-bottom: 50%;
-
-}
-.about {
+.navigation {
   background-color: #85249970;
   width:50%;
   position: relative;
@@ -94,114 +136,73 @@ section {
   transform: translate(-50%,-50%);
   height: 550px;
   width: 1500px;
-  box-shadow: 0 30px 40px black;
+  /* box-shadow: 0 30px 40px black; */
   display: flex;
 }
-.hayesbeer {
-    position: absolute;
-    top: 140%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 550px;
-    /* width: 1500px; */
-    box-shadow: 0 30px 40px black;
-    display: flex;
-    margin-top: 40%;
+.webaps {
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 550px;
+  width: 1500px;
+  /* box-shadow: 0 30px 40px black; */
+  display: flex;
 }
 .img-box2 {
+  padding-top: 8.25%;
+  padding-bottom: 8.25%;
   background-color: black;
-  width:40%;
+  width:50%;
   position: relative;
   height: 550px;
 }
-.webaps {
-  margin-top: 700px;
-  /* background-color: #00e5ff; */
-}
-.discription {
-  background-color: #00e5ff2f;
-  background-color: rgba(197, 164, 55, 0.842);
-  width:60%;
-  position: relative;
-  /* width: 50%; */
-  height: 550px;
-}
-
-.webwrap {
-  transform:rotate(-2deg);
+.wrapper {
+  padding-top: 8.25%;
+  padding-bottom: 8.25%;
   width: 100%;
-  margin-top: 30%;
-  background-color: black;
+  margin-top: 102%;
+  /* margin-bottom: 50%; */
 }
-
-
-h1 {
-  font-weight: 700;
-  font-family: 'Montserrat', sans-serif;
-  color: rgba(240, 248, 255, 0.822);
-  font-size: 50px;
-  text-align: center;
-  filter: drop-shadow(15px 0px 5px black);
-}
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  color: rgba(240, 248, 255, 0.822);
-  font-size: 35px;
-  text-align: center;
-  filter: drop-shadow(15px 0px 5px black);
-}
-h3 {
-  font-family: 'Montserrat', sans-serif;
-  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
-  /* font-family: 'Mansalva', cursive; */
-  color: black;
-  font-size: 40px;
-  text-align: center;
-  filter: drop-shadow(10px 0px 5px lightgrey);
-  font-weight: 900;
-  margin-left: 15%;
-  margin-right: 15%;
-  margin-top: 1%;
-  margin-bottom: 2%;
-}
-h4 {
-  filter: drop-shadow(15px 0px 5px black);  
-  font-family: 'Montserrat', sans-serif;
-  /* color: rgb(63, 63, 63); */
-  color: rgba(240, 248, 255, 0.822);
-  font-size: 20px;
-  /* font-weight: bold; */
-  text-align: center;
-  /* filter: drop-shadow(15px 0px 5px black); */
-}
-.background {
-  /* filter: drop-shadow(7px 0px 5px black);   */
-  font-family: 'Montserrat', sans-serif;
-  color:rgba(211, 211, 211, 0.932);
-  font-size: 18.5px;
-  text-align: center;
-  font-weight: bold;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 0%;
-  line-height: 30px;
-}
-.intro {
-  font-family: 'Montserrat', sans-serif;
-  color:rgba(211, 211, 211, 0.932);
-  font-size: 17.5px;
-  text-align: center;
-  font-weight: bold;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 0%;
-  line-height: 30px;
-}
-.slider {
-  box-shadow: 5px 5px 20px 20px rgba(0, 0, 0, 0.788);
+.info {
+  padding-top: 8.25%;
+  padding-bottom: 8.25%;
   background-color: #85249970;
-
+  width:50%;
+  position: relative;
+  width: 50%;
+  height: 550px;
 }
+/* #carousel div {
+	text-align: center;
+	width: 300px;
+	height: 220px;
+	float: left;
+	position: relative;
+} */
+/* #carousel div img {
+	border: none;
+}
+#carousel div span {
+	text-align: center;
+	color: #333;
+	font-family: Arial, Geneva, SunSans-Regular, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	margin-top: -20px;
+} */
+.slanted {
+  transform:rotate(3deg);
+  width: 100%;
+  margin-top: 22%;
+  margin-bottom: 50%;
+}
+/* .container {
+  margin-bottom: 200%;
+} */
 
 .footer {
   text-align: center;
@@ -222,14 +223,13 @@ h4 {
   align-content: center;
 }
 .foot-container {
-  margin-top: 15%;
+  margin-top: 115%;
   align-content: center;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-
 
 
 @media screen and (max-width: 450px) {
@@ -268,23 +268,6 @@ h4 {
     margin-top: 0%;
     text-align: center;
   }
-  .about {
-    box-shadow: 0 10px 20px black;
-  }
-  .background {
-    font-size: 9px;
-    font-weight: bold;
-    line-height: 125%;
-    margin-top: 0%;
-    text-align: center;
-  }
-  .intro {
-    font-size: 9px;
-    font-weight: bold;
-    line-height: 125%;
-    margin-top: 0%;
-    text-align: center;
-  }
   h1 {
     font-size: 25px;
   }
@@ -314,7 +297,8 @@ h4 {
     margin-top: 50%;
     margin-bottom: 10%;
   }
-  .about {
+  .navigation {
+    box-shadow: 0 10px 20px black;
     background-color: #85249970;
     position: relative;
     width: 100%;
@@ -335,45 +319,6 @@ h4 {
     box-shadow: 0 10px 20px black;
     display: flex;
   }
-
-  .hayesbeer {
-    margin-bottom: 0%;
-    position: absolute;
-    top: 190%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 300px;
-    width: 375px;
-    box-shadow: 0 10px 20px black;
-    display: flex;
-  }
-  .img-box2 {
-    background-color: black;
-    width:40%;
-    position: relative;
-    height: 250px;
-  }
-  .webaps {
-    transform:rotate(-3deg);
-
-    margin-top: 90%;
-    /* background-color: #00e5ff; */
-  }
-  .discription {
-    background-color: #00e5ff2f;
-    background-color: rgba(197, 164, 55, 0.842);
-    position: relative;
-    width: 100%;
-    height: 250px;
-  }
-  
-  .webwrap {
-    transform:rotate(-3deg);
-    width: 100%;
-    margin-top: 90%;
-    margin-bottom: 10%;
-  }
-
   button {
     display: none;
   }

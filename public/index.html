@@ -12,12 +12,11 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800i&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- JQUERY -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+
   <!-- THREE.JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/87/three.min.js"></script>
+
+  <!-- <script src=”https://cdn.rawgit.com/mrdoob/three.js/master/examples/js/loaders/GLTFLoader.js"></script> -->
 
   <title>LH Portfolio</title>
 </head>
@@ -33,13 +32,14 @@
     <a class="active" style="float:right" href="https://docs.google.com/document/d/1ESTAQRfEnoyMGHCGtoPMy7VRO9_BJa-RqiO4wK0h9Vg/edit?usp=sharing" target="_blank">RECOMMENDATIONS</a>
 </div>
 
+<!-- HEADER -->
 <div class="container">
-  <img class="profile-pic" src="images/kids.jpeg">
-    <h1>&lt; Luke James Hayes &gt;</h1>
-    <h2>Full-Stack Developer</h2>
+  <p style="float: right; filter: brightness(130%); margin-right: .7%;"> Email: lukehayes2021@u.northwestern.edu </p>
+    <img class="profile-pic" src="images/IMG_4674 (1).jpeg">
+      <h1>&lt; Luke James Hayes &gt;</h1>
+      <h2>Full-Stack Developer</h2>
 
     <div class="links">
-    <!-- ADD ICONS FOR LINKS -->
         <div style="margin:10px 0px 0px 655px">
             <a href="https://github.com/lukejhayes" style= "font-weight: bolder" target="_blank">
             <i class="fa fa-github" style="font-size:24px; color: black; font-weight:bolder"> GitHub </i>
@@ -52,213 +52,103 @@
         </div>
     </div>
 </div>
-    
-<div class="wrapper">
+
+<!-- BODY -->
+<div class="slanted">
     <section>
-      <div class="about">
+
+      <div class="navigation">
         <h3> Portfolio Navigation </h3>
-            <ul>
-                Scroll through the home page for my basic information, goals and interests.
-                Deployed Websites are on the slider at the bottom of the page.
-            </ul>
-            <ul>
-                Under the DMA section of the navigation bar you will find my 
-                3D Models, Slash Screens, After Effects Animations & Photoshop Art.
-            </ul>
-            <ul>
-                Under the CODE section of the navigation bar you will find my
-                Video Game Creations, various Command Line Interface Programs & Code related projects.
-            </ul>
-            <ul>
-                Don't forget to contact me for inquiries and questions! 
-                I do professional freelance full-stack web development and digital media art work for clients of all ends.
-            </ul>
+            <div class="home">
+                <p>
+                    Scroll through the home page for my basic information, goals and interests.
+                    Deployed Websites are on the slider at the bottom of the page.
+                </p>
+            </div>
+            <div class="dma">
+                <p>
+                    Under the DMA section of the navigation bar you will find my 
+                    3D Models, Slash Screens, After Effects Animations & Photoshop Art.
+                </p>
+            </div>
+            <div class="code">
+                <p>
+                    Under the CODE section of the navigation bar you will find my
+                    Video Game Creations, various Command Line Interface Programs & Code related projects.
+                </p>
+            </div>
+            <div class="contact">
+                <p>
+                    Don't forget to contact me for inquiries and questions! 
+                    I do professional freelance full-stack web development and digital media art work for clients of all ends.
+                </p>
+            </div>
+      </div>
 
-
-        <!-- <h3> My Background </h3>
-            <p class="background">
-                Goal-oriented Web Developer with a strong commitment to collaboration and solutions-oriented problem-solving. 
-                Experienced with implementing a custom CSS grid system, including flexbox and CSS media queries for mobile responsiveness. 
-                Accomplished Graphic Designer with skills in Adobe After Effects, Photoshop and Illustrator. 
-                I was born and raised on the South Side of Chicago.
-                My family consists of eight people: my parents, four brothers, and two sisters.
-                I attended Mount Carmel High School, an all boys private school in Hyde Park.
-                Certified Full-Stack Web Developer by Northwestern Coding Bootcamp.
-                Currently, I'm finishing my Computer Science degree at Northwestern University. 
-            </p> -->
-        </div>
-        <div class="img-box">
+      <div class="img-box">
             <img src="images/LJ Logo.png">
+      </div>
+
+    </section>
+</div>
+<div class="wrapper">
+    <section class="webaps">
+
+        <div class="img-box2">
+            <a href="https://whispering-bastion-84089.herokuapp.com/"> <img src="./images/ff-logo.png"> </a>
         </div>
+
+        <div class="info">
+            <p> Friend Finder App </p>
+            <p> Node.js, Vue.js, & mySQL </p>
+            <a href="https://whispering-bastion-84089.herokuapp.com/"> View App </a>
+        </div>
+
     </section>
 </div>
 
-<div class="slider">
-    <div class="slider-wrapper flex" id="carosel">
+<!-- CAROUSEL -->
+<!-- <div id="wrapper"> -->
+    <!-- <div id="carousel"> -->
+    <!-- <section>
+            <div class="img-box">
+                <a href="https://whispering-bastion-84089.herokuapp.com/">
+                <img src="./images/ff-logo.png">
+                </a>
+            </div>
+            <div class="info">
+                <p> Node.js, Vue.js & mySQL </p>
+                <p> Friend Finder Web App</p>
+                <p> This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match. </p>
+                <a class="slide-more" href="https://whispering-bastion-84089.herokuapp.com/">View App</a>
+            </div> -->
 
-        <div class="slide flex">
-            <div class="slide-image slider-link next">
-                <a href="https://warm-hollows-88808.herokuapp.com/">
-                <img src="./images/hb-logo copy.png">
-                </a>
-            </div>
-            <div class="slide-content">
-                <div class="slide-date"> Mern-Stack Website </div>
-                <div class="slide-title"> Hayes Beer Distributing Co. </div>
-                <div class="slide-text">
-                    <p> 
-                        For this specific project, I used a Node and Express Web Server backed by a MySQL Database with a Sequelize ORM. 
-                        I created both GET and POST routes for retrieving and adding new data. 
-                        Involving the authentication of employees for proper data access rights through a React.js 'Login' Page.
-                    </p>
-                    <a class="slide-more" href="https://warm-hollows-88808.herokuapp.com/">View Site</a>
-                </div>
-            </div>	
+        <!-- <div>
+            <a href="https://lukejhayes.github.io/bubble-sort/"> <img src="./images/bubble-logo.png" width="200" height="200" alt="Bubble Sort"> </a>
+            <span>Bubble Sort</span>
         </div>
-
-        <div class="slide flex">
-            <div class="slide-image slider-link next">
-                <a href="https://whispering-bastion-84089.herokuapp.com/">
-                <img src="./images/ff-logo.png">
-                </a>
-            </div>
-            <div class="slide-content">
-                <div class="slide-date"> Node.js, Vue.js & mySQL </div>
-                <div class="slide-title"> Friend Finder Web App</div>
-                <div class="slide-text">
-                    <p> 
-                            This full-stack site will take in results from your users' surveys, 
-                            then compare their answers with those from other users. 
-                            The app will then display the name and picture of the user with the best overall match.
-                    </p>
-                    <a class="slide-more" href="https://whispering-bastion-84089.herokuapp.com/">View App</a>
-                </div>
-            </div>	
+        <div>
+            <a href="https://lukejhayes.github.io/TriviaGame/"> <img src="./images/trivia-logo.png" width="200" height="200" alt="Trivia Game"> </a>
+            <span>Trivia Game</span>
         </div>
-
-        <div class="slide flex">
-            <div class="slide-image slider-link next">
-                <a href="https://lukejhayes.github.io/chrystal-collector/">
-                <img src="./images/react-logo.png" >
-                </a>
-            </div>
-            <div class="slide-content">
-                <div class="slide-date"> JavaScript & React.js </div>
-                <div class="slide-title"> React Clicky Game </div>
-                <div class="slide-text">
-                    <p> 
-                        For this specific project, I used a Node and Express Web Server backed by a MySQL Database with a Sequelize ORM. 
-                        I created both GET and POST routes for retrieving and adding new data. 
-                        Involving the authentication of employees for proper data access rights through a React.js 'Login' Page.
-                    </p>
-                    <a class="slide-more" href="https://lukejhayes.github.io/chrystal-collector/"">Play Game</a>
-                </div>
-            </div>	
+        <div>
+            <a href="https://lukejhayes.github.io/Tipsy/"> <img src="./images/wine-glass.png" width="200" height="200" alt="Tipsy"> </a>
+            <span>Trivia Game</span>
         </div>
-
-        <div class="slide flex">
-            <div class="slide-image slider-link next">
-                <a href="https://lukejhayes.github.io/Train-Scheduler/">
-                <img src="./images/AWT-Train.png" >
-                </a>
-            </div>
-            <div class="slide-content">
-                <div class="slide-date"> JavaScript & Firebase </div>
-                <div class="slide-title"> Train-Scheduler Web App </div>
-                <div class="slide-text">
-                    <p> 
-                        For this specific project, I used a Node and Express Web Server backed by a MySQL Database with a Sequelize ORM. 
-                        I created both GET and POST routes for retrieving and adding new data. 
-                        Involving the authentication of employees for proper data access rights through a React.js 'Login' Page.
-                    </p>
-                    <a class="slide-more" href="https://lukejhayes.github.io/Train-Scheduler/">View Site</a>
-                </div>
-            </div>
+        <div>
+            <a href="https://lukejhayes.github.io/palindrome/"> <img src="./images/Palindrome-logo.png" width="200" height="200" alt="Palindorme"> </a>
+            <span>Trivia Game</span>
         </div>
-
-    </div>
-
-    <!-- MAKE ROUTE FOR ID TAG  -->
-    <div class="arrows">
-        <a href="#" title="Previous" class="arrow slider-link prev"></a>
-        <a href="#" title="Next" class="arrow slider-link next"></a>
-    </div>
-
-</div>
-
-<!-- <div class="wrapper">
-    <section>
-        <div class="websites"></div>
-            <h3> Deployed Web Apps!</h3>
-            <h4> Key Languages: Javascript, Node.js, React.js, MongoDB, Express, jQuery, SQL, Sequelize and more.</h4>
-        </div>
-
-        <div class="img-box">
-            <img style="width: 100%" src="images/hb-logo copy.png">
-        </div>
-
-    </section>
+        <div>
+            <a href="https://lukejhayes.github.io/unit-4-game/"> <img src="./images/diamond.png" width="200" height="200" alt="Chrystal Collector"> </a>
+            <span>Trivia Game</span>
+        </div> -->
+    <!-- </div> -->
+    <!-- </section>
 </div> -->
 
-  
-<!-- FIX UP CONTAINERS FOR PROPER STYLING -->
-  <!-- INDIVIDUAL SECTION CONTAINERS -->
-      <!-- <div class="redirect-links">
-          <a href="https://lukejhayes.github.io/chrystal-collector/">
-              <img src="./images/react-logo.png" style="width: 5%" onclick="onClick(this)" alt="React Game">
-              <p>React Game</p>
-          </a>
-      </div>
-
-      <div class="redirect-links">
-          <a href="https://lukejhayes.github.io/Train-Scheduler/">
-              <img src="./images/AWT-Train.png" style="width: 5%" onclick="onClick(this)"alt="Train Scheduler">
-              <p>Train Scheduler</p>
-          </a>
-      </div>
-
-      <div class="redirect-links">
-          <a href="https://whispering-bastion-84089.herokuapp.com/">
-              <img src="./images/ff-logo.png" style="width: 5%" onclick="onClick(this)" alt="Friend Finder">
-              <p>Friend Finder</p>
-          </a>
-      </div>
-
-      <div class="redirect-links">
-          <a href="https://lukejhayes.github.io/bubble-sort/">
-              <img src="./images/bubble-logo.png" style="width: 5%" onclick="onClick(this)" alt="Bubble Sort">
-              <p>Bubble Sort</p>
-          </a>
-      </div>
-
-      <div class="redirect-links">
-          <a href="https://lukejhayes.github.io/TriviaGame/">
-              <img src="./images/trivia-logo.png" style="width: 5%" onclick="onClick(this)" alt="Trivia Game">
-              <p>Trivia</p>
-          </a>
-      </div>
-
-      <div class="redirect-links">
-          <a href="https://lukejhayes.github.io/Tipsy/">
-              <img src="./images/wine-glass.png" style="width: 5%" onclick="onClick(this)" alt="Tipsy">
-              <p>Tipsy</p>
-          </a>
-      </div>
-      <div class="redirect-links">
-          <a href="https://lukejhayes.github.io/palindrome/">
-              <img src="./images/Palindrome-logo.png" style="width: 5%" onclick="onClick(this)" alt="Palindorme">
-              <p>Palindorme</p>
-          </a>
-      </div>
-      <div class="redirect-links">
-          <a href="https://lukejhayes.github.io/unit-4-game/">
-              <img src="./images/diamond.png" style="width: 5%" onclick="onClick(this)" alt="Chrystal Collector">
-              <p>Chrystal Collector</p>
-          </a>
-      </div> -->
-
-<div class="foot-container">
 <!-- FOOTER -->
+<div class="foot-container">
     <footer class="footer">
         <img id="footLogo" src="./images/Web-Icon.png"> </img>
           <p class="motto"> &lt; CODED & DESIGNED BY LUKE J. HAYES &gt; </p>
