@@ -14,7 +14,7 @@ body {
   background-color:  #00e5ff;
   background-image:
   radial-gradient(
-  gray,
+  rgba(128, 128, 128, 0.76),
   black
 );
 }
