@@ -18,10 +18,10 @@ body {
   black
 );
 }
-
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: rgba(211, 211, 211, 0.116);
+  /* background-color: rgba(211, 211, 211, 0.116); */
+  background-color: rgba(0, 0, 0, 0.604);
   overflow: hidden;
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -33,12 +33,14 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #DDDFDF;
+  color: rgba(221, 223, 223, 0.897);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-weight: bold;
   font-family: 'Montserrat', sans-serif;
+
 }
 
 /* Change the color of links on hover */
@@ -49,8 +51,9 @@ body {
 
 /* Add an active class to highlight the recommendations page */
 .topnav a.active {
-  background-color: #852499a6;
+  background-color: #00e5ff93; 
   color: rgba(221, 223, 223, 0.829);
+  font-weight: bolder;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
@@ -65,7 +68,7 @@ body {
   padding-top: 20px;
   box-shadow: 5px 5px 20px 20px black;
   color: rgba(240, 248, 255, 0.856);
-  background-color:black;
+  background-color: rgba(0, 0, 0, 0.808);  
 }
 .footer-links {
   text-align: center;
