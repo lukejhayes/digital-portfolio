@@ -160,10 +160,11 @@ p {
     display: none;
   }
   p {
-    font-size: 9px;
+    font-size: 10px;
     font-weight: bold;
     line-height: 125%;
-    margin-top: 0%;
+    margin-top: 3%;
+    margin-right: 10px;
     text-align: center;
   }
   h1 {
@@ -171,6 +172,10 @@ p {
   }
   h2 {
     font-size: 20px;
+  }
+  .test {
+    padding: 20%;
+    margin-top: 3%;
   }
 
   a.hb {
@@ -204,7 +209,7 @@ p {
   }
   .foot-container {
     margin-bottom:0%;
-    margin-top:180%;
+    margin-top:20%;
     align-content: center;
   }
   .motto {
