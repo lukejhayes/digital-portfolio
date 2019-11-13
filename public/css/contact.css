@@ -83,6 +83,16 @@ body {
 .foot-container {
   align-content: center;
 }
+.intro {
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  color: rgba(240, 248, 255, 0.678);
+  font-size: 18px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  /* filter: drop-shadow(15px 0px 5px rgba(240, 248, 255, 0.822)); */
+}
 
 h1 {
   font-weight: 700;
@@ -90,7 +100,7 @@ h1 {
   color: rgba(240, 248, 255, 0.822);
   font-size: 50px;
   text-align: center;
-  filter: drop-shadow(15px 0px 5px black);
+  /* filter: drop-shadow(15px 0px 5px rgba(240, 248, 255, 0.822)); */
 }
 
 .hayesbeer {

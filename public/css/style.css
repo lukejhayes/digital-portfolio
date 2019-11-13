@@ -89,7 +89,7 @@ p {
 }
 
 .profile-pic {
-  box-shadow: 1px 6px 8px black;
+  box-shadow: 4px 6px 8px black;
   border-radius: 50%;
   margin-left: 40%;
   margin-top: 2%;
