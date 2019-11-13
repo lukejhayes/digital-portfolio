@@ -164,8 +164,8 @@ iframe:hover {
     font-size: 18px;
   }
   iframe{
-    filter: drop-shadow(7px 5px 4px #852499a6);
-    border: 2px solid #00e5ffc4;
+    filter: drop-shadow(7px 5px 4px black);
+    border: 2px solid #00e5ffaf;
     width: 90%;
     height: auto;
   }

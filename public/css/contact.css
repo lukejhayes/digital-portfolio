@@ -147,22 +147,10 @@ h1 {
   margin-top: 12.5%;
   background-color: black;
   filter: drop-shadow(7px 5px 4px #852499a6);
-
 }
 
 
 @media screen and (max-width: 450px) {
-
-  body::before {
-    content: "";
-    position: fixed;
-    top: -10px;
-    left: 0;
-    width: 375px;
-    height: 10px;
-    box-shadow: 0px 0 15px lightgrey;
-    z-index: 100;
-  }
   a.active{
     display: none;
   }
@@ -177,31 +165,69 @@ h1 {
     display: block;
     text-align: left;
   }
-  .links {
+  
+  .mobile-none {
     display: none;
   }
   p {
     font-size: 9px;
     font-weight: bold;
     line-height: 125%;
-    margin-top: 3%;
-    margin-right: 10px;
+    margin-top: 0%;
     text-align: center;
   }
   h1 {
-    font-size: 25px;
+    font-size: 22px;
+    /* margin-bottom: 5%; */
   }
-  h2 {
-    font-size: 20px;
+  .webwrap{
+    margin-top: 5%;
   }
-  .hayesbeer {
+  .discription{
     display: none;
   }
-  .img-box2 {
-    width: 50%;    
+  .webaps{
+    height: 150px;
+    width: 450px;
   }
-  img {
+  .hayesbeer{
+    height: 150px;
+    width: 450px;
+    margin-bottom: 100px;
+  }
+  .img-box2{
+    display: none;
+  }
+
+
+  iframe{
+    filter: drop-shadow(7px 5px 4px black);
+    /* border: 2px solid #00e5ffc4; */
     width: 90%;
-    height: 90%;;
+    height: auto;
   }
+
+  .footer-links {
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  #footLogo {
+    margin-bottom:10px;
+    height: 60px;
+    align-content: center;
+  }
+  .foot-container {
+    margin-bottom:0%;
+    /* margin-top:200px; */
+    align-content: center;
+  }
+  .motto {
+    text-align: center;
+  }
+  .footer-copyright {
+    margin-top:17px;
+    text-align: center;
+  }
+
 }

@@ -197,8 +197,8 @@ iframe:hover {
     margin-bottom: 5%;
   }
   iframe{
-    filter: drop-shadow(7px 5px 4px #852499a6);
-    border: 2px solid #00e5ffc4;
+    filter: drop-shadow(7px 5px 4px black);
+    /* border: 2px solid #00e5ffc4; */
     width: 90%;
     height: auto;
   }
@@ -215,7 +215,7 @@ iframe:hover {
   }
   .foot-container {
     margin-bottom:0%;
-    margin-top:150%;
+    margin-top:165%;
     align-content: center;
   }
   .motto {
