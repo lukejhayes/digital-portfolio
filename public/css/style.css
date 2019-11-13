@@ -70,6 +70,7 @@ h1 {
   font-size: 50px;
   text-align: center;
   filter: drop-shadow(15px 0px 5px black);
+  margin-top: 10px;
 }
 h2 {
   font-family: 'Montserrat', sans-serif;

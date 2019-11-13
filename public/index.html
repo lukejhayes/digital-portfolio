@@ -22,6 +22,48 @@
 
 <body>
 
+        <style> 
+                div.anim {
+                  float: left;
+                  width: 150px;
+                  height: 150px;
+                  background-color: red;
+                  position: relative;
+                  /* Safari 4.0 - 8.0 */
+                  -webkit-animation-name: example;
+                  -webkit-animation-duration: 7s;
+                  -webkit-animation-timing-function: linear;
+                  -webkit-animation-delay: 2s;
+                  -webkit-animation-iteration-count: infinite;
+                  -webkit-animation-direction: alternate;
+                  /* Standard syntax */
+                  animation-name: example;
+                  animation-duration: 7s;
+                  animation-timing-function: linear;
+                  animation-delay: 2s;
+                  animation-iteration-count: infinite;
+                  animation-direction: alternate;
+                }
+                
+                /* Safari 4.0 - 8.0 */
+                @-webkit-keyframes example {
+                  0%   {background-color:red; left:0px; top:0px;}
+                  25%  {background-color:yellow; left:100px; top:0px;}
+                  50%  {background-color:blue; left:100px; top:100px;}
+                  75%  {background-color:green; left:0px; top:100px;}
+                  100% {background-color:red; left:0px; top:0px;}
+                }
+                
+                /* Standard syntax */
+                @keyframes example {
+                  0%   {background-color:red; left:0px; top:0px;}
+                  25%  {background-color:yellow; left:100px; top:0px;}
+                  50%  {background-color:blue; left:100px; top:100px;}
+                  75%  {background-color:green; left:0px; top:100px;}
+                  100% {background-color:red; left:0px; top:0px;}
+                }
+                </style>
+
     
 <!-- NAVBAR -->
 <div class="topnav" id="myTopnav">
@@ -60,9 +102,15 @@
 
 <!-- BODY -->
 <div class="test">
-    <h1> WEB APP SHOWCASE </h1>
+    <div class="anim">
+    <div class="anim2">
 
-    <h2 style="font-size: 90%;"> (Hover Mouse Over Text) </h2>
+    </div>
+    <h1> </h1>
+
+
+    <!-- <h2 style="font-size: 90%;"> (Hover Mouse Over Text) </h2> -->
+</div>
 </div>
 <!-- <div class="slanted">
     <section>
