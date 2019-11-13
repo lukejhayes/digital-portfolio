@@ -102,9 +102,9 @@ p {
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 20px;
   padding-top: 20px;
-  box-shadow: 5px 5px 20px 20px rgba(0, 0, 0, 0.788);
+  box-shadow: 5px 5px 20px 20px black;
   color: rgba(240, 248, 255, 0.856);
-  background-color: rgba(0, 0, 0, 0.808);
+  background-color: rgba(0, 0, 0, 0.808);  
 }
 .footer-links {
   text-align: center;
@@ -116,7 +116,7 @@ p {
   align-content: center;
 }
 .foot-container {
-  margin-top: 10%;
+  margin-top:30%;
   align-content: center;
 }
 .test {
