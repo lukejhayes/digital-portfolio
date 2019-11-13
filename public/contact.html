@@ -17,14 +17,43 @@
 <body>
 
 <!-- NAVBAR -->
-<div class="topnav" id="myTopnav">
+<nav class="topnav" id="myTopnav">
     <a href="index.html">HOME</a>
     <a href="dma.html">DMA</a>
     <a href="code.html">CODE</a>
     <a href="contact.html">CONTACT</a>
     <a class="active" style="float:right" href="https://docs.google.com/document/d/1ESTAQRfEnoyMGHCGtoPMy7VRO9_BJa-RqiO4wK0h9Vg/edit?usp=sharing" target="_blank">RECOMMENDATIONS</a>
-</div>
-
+</nav>
+<style> 
+    div {
+      width: 100px;
+      height: 100px;
+      background-color: #00e5ff;
+      position: relative;
+      -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 3.5s; /* Safari 4.0 - 8.0 */
+      animation-name: example;
+      animation-duration: 3.5s;
+    }
+    
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+      0%   {background-color:#00e5ff; left:0px; top:0px;}
+      25%  {background-color:#852499a6; left:200px; top:0px;}
+      /* 50%  {background-color:#00e5ff; left:200px; top:200px;} */
+      55%  {background-color:#852499a6; left:0px; top:200px;}
+      100% {background-color:black; left:0px; top:0px;}
+    }
+    
+    /* Standard syntax */
+    @keyframes example {
+      0%   {background-color:#00e5ff; left:0px; top:0px;}
+      25%  {background-color:#852499a6; left:200px; top:0px;}
+      /* 50%  {background-color:#00e5ff; left:200px; top:200px;} */
+      55%  {background-color:#852499a6; left:0px; top:200px;}
+      100% {background-color:black; left:0px; top:0px;}
+    }
+    </style>
 <!-- CONTACT ME SECTION -->
 <div class="webwrap">
     <section class="hayesbeer">
@@ -43,9 +72,9 @@
     </section>
 </div>
 
-<div class="foot-container" style="margin-top:55%">
+<!-- <div class="foot-container" style="margin-top:55%"> -->
 <!-- FOOTER -->
-    <footer class="footer">
+    <footer class="footer" style="margin-top:40%" >
         <img id="footLogo" src="./images/Web-Icon.png"> </img>
             <p class="motto"> &lt; CODED & DESIGNED BY LUKE J. HAYES &gt; </p>
             <a class="footer-links" href="index.html">HOME</a>
@@ -57,7 +86,7 @@
             <a class="footer-links" href="contact.html">CONTACT</a>
         <p class="footer-copyright"> Digital Portfolio &copy; Copyright 2019 </p>
     </footer>
-</div>
+<!-- </div> -->
 
 <script src="./js/contact.js"></script>
 

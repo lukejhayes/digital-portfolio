@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded',function(event){
     // array with texts to type in typewriter
-    var dataText = ["Video Game Creations"];
-    var i = 0;
+    var dataText = [ "Full Stack Developer", "Digital Media Artist", "UI / UX Designer" ];
+    
     // type one text in the typwriter
     // keeps calling itself until the text is finished
     function typeWriter(text, i, fnCallback) {
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded',function(event){
       // text finished, call callback if there is a callback function
       else if (typeof fnCallback == 'function') {
         // call callback after timeout
-        setTimeout(fnCallback, 8000);
+        setTimeout(fnCallback, 700);
       }
     }
     // start a typewriter animation for a text in the dataText array
@@ -26,10 +26,11 @@ document.addEventListener('DOMContentLoaded',function(event){
        if (typeof dataText[i] == 'undefined'){
           setTimeout(function() {
             StartTextAnimation(0);
-          }, 1500);
+          }, 1300);
        }
        // check if dataText[i] exists
       if (i < dataText[i].length) {
+          console.log("i: " + dataText[i]);
         // text exists! start typewriter animation
        typeWriter(dataText[i], 0, function(){
          // after callback (and whole text has been animated), start next text

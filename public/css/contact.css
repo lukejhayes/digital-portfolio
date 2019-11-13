@@ -110,12 +110,12 @@ h1 {
   width:48%;
   position: relative;
   height: 550px;
-  filter: drop-shadow(7px 5px 4px #852499a6);
-  box-shadow: 0 30px 40px black;
+  /* filter: drop-shadow(7px 5px 4px #852499a6); */
+  /* box-shadow: 0 30px 40px black; */
 
 }
 .webaps {
-  margin-top: 200px;
+  margin-top: 150px;
   background-color: #00e5ff;
 }
 .discription {
@@ -133,7 +133,7 @@ h1 {
 .webwrap {
   transform:rotate(-2deg);
   width: 100%;
-  margin-top: 25%;
+  margin-top: 12.5%;
   background-color: black;
   filter: drop-shadow(7px 5px 4px #852499a6);
 
