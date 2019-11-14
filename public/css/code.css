@@ -8,15 +8,16 @@ body::before {
   box-shadow: 0px 0 15px lightgrey;
   z-index: 100;
 }
-body{
-  margin: 0;
-  background-color: #F9EEEE;
-  background-color:  #00e5ff;
-  background-image:
-  radial-gradient(
-  rgba(128, 128, 128, 0.76),
-  black
-);
+body {
+    margin: 0;
+    width: 100%;
+    background-color: black;
+    /* background-color:  #00e5ff; */
+    background-image:
+    radial-gradient(
+    rgba(128, 128, 128, 0.712),
+    black
+  );
 }
 /* Add a black background color to the top navigation */
 .topnav {
