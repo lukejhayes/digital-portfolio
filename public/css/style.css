@@ -11,8 +11,8 @@ body::before {
 body {
     margin: 0;
     width: 100%;
-    background-color: #F9EEEE;
-    background-color:  #00e5ff;
+    background-color: black;
+    /* background-color:  #00e5ff; */
     background-image:
     radial-gradient(
     rgba(128, 128, 128, 0.712),
