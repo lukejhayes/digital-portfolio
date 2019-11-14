@@ -132,6 +132,12 @@ body {
     border-bottom: #333 dashed 1px;
     padding: 1.2rem 1rem;
   }
+  .mobile {
+    display: none;
+  }
+  .content {
+    margin-top: 20%;
+  }
 }
 
 
@@ -217,7 +223,7 @@ p {
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 20px;
   padding-top: 20px;
-  box-shadow: 5px 5px 20px 20px black;
+  /* box-shadow: 5px 5px 20px 20px black; */
   color: rgba(240, 248, 255, 0.856);
   background-color: rgba(0, 0, 0, 0.808);  
 }
@@ -330,7 +336,7 @@ p {
   }
   .foot-container {
     margin-bottom:0%;
-    margin-top:20%;
+    /* margin-top:20%; */
     align-content: center;
   }
   .motto {
