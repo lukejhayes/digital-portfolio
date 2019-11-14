@@ -99,6 +99,14 @@ iframe{
   margin-left: 10%;
 }
 
+img {
+  transition: transform .2s; /* Animation */
+}
+
+img:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 /* Specific Photoshop Styles per className */
 .dallasK{
   float: right;
@@ -185,6 +193,13 @@ iframe:hover {
   
   .mobile-none {
     display: none;
+  }
+  img {
+    transition: transform .2s; /* Animation */
+  }
+  
+  img:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
   p {
     font-size: 9px;
