@@ -37,12 +37,11 @@ body {
   display: block;
   color: rgba(221, 223, 223, 0.897);
   text-align: center;
-  padding: 14px 16px;
+  padding: 12px 14px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
-
 }
 
 /* Change the color of links on hover */
@@ -55,7 +54,7 @@ body {
 .topnav a.active {
   background-color: #00e5ff93; 
   color: rgba(221, 223, 223, 0.829);
-  font-weight: bolder;
+  font-weight: bold;
 }
 
 /* Hide the link that should open and close the topnav on small screens */
