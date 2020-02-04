@@ -8,7 +8,32 @@ body {
   width: 100%;
 }
 .exb-logo{
-  width: 75%;
+  width: 90%;
+  margin-left: 10%;
+}
+.ff-logo{
+  width: 90%;
+}
+.services{
+  display: flex;
+}
+.hayes-beer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.exb-site{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.ff-app{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0%;
+  margin-bottom: 0%;
 }
 .showcase::after {
   content: '';
