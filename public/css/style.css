@@ -4,6 +4,10 @@ body {
   color: #fff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.foot-container{
+  background: rgba(0, 0, 0, 0.9);
+  padding: 40px;
+}
 .hb-logo{
   width: 100%;
 }
@@ -116,10 +120,14 @@ body {
   grid-gap: 20px;
   grid-template-columns: repeat(2, 1fr);
 }
-
-.center {
+.center{
   text-align: center;
   margin: auto;
+}
+
+.cont {
+  margin-right: 0%;
+  margin-left: 0%;
 }
 
 .bg-light {
