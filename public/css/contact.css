@@ -157,47 +157,7 @@ h1 {
     display: block;
     text-align: left;
   }
-  
-  .mobile-none {
-    display: none;
-  }
-  p {
-    font-size: 9px;
-    font-weight: bold;
-    line-height: 125%;
-    margin-top: 0%;
-    text-align: center;
-  }
-  h1 {
-    font-size: 22px;
-    /* margin-bottom: 5%; */
-  }
-  .webwrap{
-    margin-top: 5%;
-  }
-  .discription{
-    display: none;
-  }
-  .webaps{
-    height: 150px;
-    width: 450px;
-  }
-  .hayesbeer{
-    height: 150px;
-    width: 450px;
-    margin-bottom: 100px;
-  }
-  .img-box2{
-    display: none;
-  }
 
-
-  iframe{
-    filter: drop-shadow(7px 5px 4px black);
-    /* border: 2px solid #00e5ffc4; */
-    width: 90%;
-    height: auto;
-  }
 
   .footer-links {
     text-align: center;
