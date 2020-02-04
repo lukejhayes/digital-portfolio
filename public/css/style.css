@@ -4,7 +4,12 @@ body {
   color: #fff;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.hb-logo{
+  width: 100%;
+}
+.exb-logo{
+  width: 75%;
+}
 .showcase::after {
   content: '';
   height: 100vh;
