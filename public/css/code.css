@@ -98,6 +98,7 @@ iframe {
 
 }
 iframe:hover {
+  z-index: 0;
   transform: scale(.95);
 }
 .container{
